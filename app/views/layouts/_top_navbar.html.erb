@@ -1,0 +1,27 @@
+<div class="cover-container">
+	<div class="masthead clearfix">
+		
+		<div class="row">
+			<div class="masthead-brand col-lg-2 col-md-3 col-sm-4">
+				<%= link_to image_tag("logo.png", style: "max-width: 100%"), root_path %>
+			</div>
+			
+			<div class="col-auto">
+				<div class="collapse" id="navbarHeader">
+					    	<div class="text-muted">
+					    		<%= link_to "Projekte", projects_path, class: "nav-link active" %>
+		      				<%= link_to "Volunteering", volun_text_path(VolunText.first), class: "nav-link" %>
+		      				<%= link_to "Kontakt", root_path, class: "nav-link" %>
+		      			</div>
+		    </div>
+
+				<nav class="navbar navbar-light nav-masthead">
+		      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+		      		<span class="navbar-toggler-icon"></span>
+		    		</button>
+		    </nav>
+		  </div>
+	  </div>
+
+	</div>
+</div>

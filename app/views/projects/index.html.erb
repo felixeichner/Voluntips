@@ -1,7 +1,35 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Projects</h1>
+<div class="container">
+  <h1>Freiwilligenarbeit - Projekte</h1>
+  <hr><br>
 
+
+  <div class="row">
+    <% @projects.each do |project| %>
+      <div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom: 1rem">
+        <div class="card projects-card">
+          <div class="card-block">
+            <%= link_to project do %>
+              <%= image_tag "/uploads/project/images/1/Turtle_dive.jpg",
+                  width: '100%', height: 'auto', style: "margin-bottom: 1rem" %>
+              <h4><%= project.title %></h4>
+              <p><%= project.preview %></p>
+            <% end %>
+            <div>
+              <%= link_to 'Show', project %>
+              <%= link_to 'Edit', edit_project_path(project) %>
+              <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<br>
+<hr>
 <table>
   <thead>
     <tr>
@@ -25,35 +53,6 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.preview %></td>
-        <td><%= project.summary %></td>
-        <td><%= project.qualification %></td>
-        <td><%= project.work %></td>
-        <td><%= project.accomodation %></td>
-        <td><%= project.costs %></td>
-        <td><%= project.address %></td>
-        <td><%= project.tel %></td>
-        <td><%= project.email %></td>
-        <td><%= project.webpage %></td>
-        <td><%= project.min_weeks %></td>
-        <td><%= project.costs_week %></td>
-        <td><%= project.accom_standard %></td>
-        <td><%= project.lat %></td>
-        <td><%= project.lgt %></td>
-        <td><%= project.images %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
+ </table>
+  
 <%= link_to 'New Project', new_project_path %>

@@ -4,7 +4,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* Custom default button */
@@ -30,11 +30,6 @@ body {
   background-size: cover;
 }
 
-body {
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-}
-
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: block;
@@ -46,10 +41,19 @@ body {
 }
 
 .cover-container, .content-container {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.5);
   border-radius: 1rem;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.cover-container {
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.content-container, a {
+  color: #545454;
 }
 
 /*
@@ -61,7 +65,7 @@ body {
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .nav-masthead {
@@ -93,7 +97,6 @@ body {
   border-bottom-color: #fff;
 }
 
-
 /*
  * Cover
  */
@@ -122,12 +125,6 @@ body {
 
 @media (min-width: 40em) {
   /* Pull out the header and footer */
-	.masthead-brand {
-	  margin: 10px 0 0 0;
-	  padding: 0;
-	  float: left;
-	}
-
 	.nav-masthead {
 		vertical-align: center;
 	}
@@ -147,4 +144,8 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+
+	.container {
+		max-width: 100%;
+	}
 }
