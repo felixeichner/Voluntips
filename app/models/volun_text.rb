@@ -1,0 +1,2 @@
+class VolunText < ApplicationRecord
+end

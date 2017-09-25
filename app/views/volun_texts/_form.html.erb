@@ -1,0 +1,32 @@
+<%= form_with(model: volun_text, local: true) do |form| %>
+  <% if volun_text.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(volun_text.errors.count, "error") %> prohibited this volun_text from being saved:</h2>
+
+      <ul>
+      <% volun_text.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title, id: :volun_text_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body, id: :volun_text_body %>
+  </div>
+
+  <div class="field">
+    <%= form.label :slug %>
+    <%= form.text_field :slug, id: :volun_text_slug %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @volun_text.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @volun_text.body %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @volun_text.slug %>
+</p>
+
+<%= link_to 'Edit', edit_volun_text_path(@volun_text) %> |
+<%= link_to 'Back', volun_texts_path %>
