@@ -69,6 +69,6 @@ class VolunTextsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def volun_text_params
-      params.require(:volun_text).permit(:title, :body, :slug)
+      params.require(:volun_text).permit(:title, :body)
     end
 end
