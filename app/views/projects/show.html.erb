@@ -1,89 +1,131 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @project.title %>
-</p>
+<h2><center><%= @project.title %></center></h2>
+<h4><center><%= @project.preview %></center></h4>
 
-<p>
-  <strong>Preview:</strong>
-  <%= @project.preview %>
-</p>
+<hr>
 
-<p>
-  <strong>Summary:</strong>
-  <%= @project.summary %>
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <% if @project.lat? && @project.lgt? %>
+      <iframe width="400" height=300 frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC93bcY6JbfNwW_u0LROOoqSobojAllko8
+        &q=<%= @project.lat %>,<%= @project.lgt %>&center=<%= @project.lat.to_i+6 %>,<%= @project.lgt %>&zoom=4">
+      </iframe>
+    <% else %>
+      <iframe width="400" height=300 frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC93bcY6JbfNwW_u0LROOoqSobojAllko8
+        &q=<%= @project.addresse.gsub(/\s/, '+') %>&zoom=4">
+      </iframe>
+    <% end %>
+  </div>
+  
+  <div class="col-md-6">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-<p>
-  <strong>Qualification:</strong>
-  <%= @project.qualification %>
-</p>
+      <div class="carousel-inner" role="listbox">
+        <% @project.images.each do |image| %>
+          <% if image == @project.images.first %>
+            <div class="item active">
+              <%= image_tag(image,
+                            style: "max-width: 500px; max-height: 300px;
+                                    display: block; margin: auto"
+                            )
+              %>
+            </div>
+          <% else %>
+            <div class="item">
+              <%= image_tag(image,
+                            style: "max-width: 500px; max-height: 300px;
+                                    display: block; margin: auto"
+                            )
+              %>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
 
-<p>
-  <strong>Work:</strong>
-  <%= @project.work %>
-</p>
+      <% if @project.images.count > 1 %>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      <% end %>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Accomodation:</strong>
-  <%= @project.accomodation %>
-</p>
+<hr><br>
 
-<p>
-  <strong>Costs:</strong>
-  <%= @project.costs %>
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card show-card">
+      <strong>Kurzbeschreibung:</strong>
+      <p><%= simple_format @project.summary %></p>
+    </div>
+  </div>
 
-<p>
-  <strong>Address:</strong>
-  <%= @project.address %>
-</p>
+  <div class="col-md-6">
+    <div class="card show-card">
+      <strong>Arbeitsaufgaben:</strong>
+      <p><%= simple_format @project.work %></p>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Tel:</strong>
-  <%= @project.tel %>
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card show-card">
+      <strong>Kosten:</strong>
+      <p><%= simple_format @project.costs %></p>
+    </div>
+  </div>
 
-<p>
-  <strong>Email:</strong>
-  <%= @project.email %>
-</p>
+  <div class="col-md-6">
+    <div class="card show-card">
+      <strong>Unterbringung:</strong>
+      <p><%= simple_format @project.accomodation %></p>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Webpage:</strong>
-  <%= @project.webpage %>
-</p>
+<div class="row">
+  <div class="col-auto">
+    <div class="card show-card">
+      <div class="row">
+        <div class="col-auto">
+          <strong>Adresse:</strong>
+        </div>
+        <div class="col-auto">
+          <%= simple_format @project.address %>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<p>
-  <strong>Min weeks:</strong>
-  <%= @project.min_weeks %>
-</p>
+  <div class="col-auto">
+    <div class="card show-card">
+      <div class="row">
+        <div class="col-auto">
+          <p><strong>Tel.: </strong></p>
+          <p><strong>Email: </strong></p>
+          <p><strong>Webseite: </strong></p>
+        </div>
+        <div class="col-auto">
+          <p><%= tel_to @project.tel %></p>
+          <p><%= mail_to @project.email %></p>
+          <p><%= link_to 'Webseite des Projekts', @project.webpage, class:'btn btn-sm btn-warning' %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Costs week:</strong>
-  <%= @project.costs_week %>
-</p>
 
-<p>
-  <strong>Accom standard:</strong>
-  <%= @project.accom_standard %>
-</p>
 
-<p>
-  <strong>Lat:</strong>
-  <%= @project.lat %>
-</p>
-
-<p>
-  <strong>Lgt:</strong>
-  <%= @project.lgt %>
-</p>
-
-<p>
-  <strong>Images:</strong>
-  <%= @project.images %>
-</p>
-
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
+<%= link_to 'Zurück', url_for(:back), class:'btn btn-sm btn-warning' %>
+<%= admin_links(@project, edit_project_path(@project)) %>
