@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-  <h1>Freiwilligenarbeit - Projekte</h1>
+  <h3>Freiwilligenarbeit - Projekte</h3>
   <hr><br>
 
 
@@ -11,10 +11,10 @@
         <div class="card projects-card">
           <div class="card-block">
             <%= link_to project do %>
-              <%= image_tag "/uploads/project/images/1/Turtle_dive.jpg",
+              <%= image_tag project.images.first,
                   width: '100%', height: 'auto', style: "margin-bottom: 1rem" %>
-              <h4><%= project.title %></h4>
-              <p><%= project.preview %></p>
+              <h5><%= project.title %></h5>
+              <strong><%= project.preview %></strong>
             <% end %>
             <div>
               <%= link_to 'Show', project %>

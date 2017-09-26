@@ -123,11 +123,11 @@ Project.create(title: "Bahamas Marine Conservation, Bahamas", preview: "Korallen
   animals: Animal.where(name: ['Meeresschildkröte', 'Wal', 'Delfin', 'Hai', 'Krokodil']),
   countries: Country.where(name: ['Bahamas']),
   tasks: Task.where(name: ['Englisch', 'Tauchen', 'Unterricht/Aufklärung']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/1/Turtle_dive.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/1/Surrounded_by_sharks.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/1/diving.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/1/K1600_Bahamas_accomodation.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/1/Group_Bahamas.jpg'))])
+  images: ["1/Turtle_dive.jpg",
+    "1/Surrounded_by_sharks.jpg",
+    "1/diving.jpg",
+    "1/K1600_Bahamas_accomodation.JPG",
+    "1/Group_Bahamas.jpg"])
 
 Project.create(title: "Arcas, Hawaii, Guatemala", preview: "Meeresschildkröten retten und erforschen",
   summary: "Das Arcas-Projekt verschreibt sich in seinem Projekt nahe der Stadt Hawaii hauptsächlich dem Schutz und der Erforschung von Oliv-Bastard- sowie Lederschildkröten. Durch private Sammler, die Schildkröteneier als Aphrodisiaka verkaufen, ist der Bestand im Pazifik in den letzten Jahren auf bedrohliche Mengen gesunken. Hiergegen kämpt Arcas durch Schutz der Eier, Erforschung der Meeresbewohner sowie durch Aufklärung der Bevölkerung. In Peten und Guatemala Stadt betreibt Arcas zwei weitere Natur- und Tierschutzprojekte mit anderen Schwerpunkten.",
@@ -145,9 +145,9 @@ Project.create(title: "Arcas, Hawaii, Guatemala", preview: "Meeresschildkröten 
   animals: Animal.where(name: ['Meeresschildkröte']),
   countries: Country.where(name: ['Guatemala']),
   tasks: Task.where(name: ['Englisch', 'Spanisch', 'Unterricht/Aufklärung', 'Betreuung von Besuchern', 'Strandlage']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/2/IMG_3902.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/2/DSC00566.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/2/Beach.jpg'))])
+  images: ["2/IMG_3902.jpg",
+    "2/DSC00566.JPG",
+    "2/Beach.jpg"])
 
 Project.create(title: "M.E.E.R. e.V., La Gomera, Spanien", preview: "Delfine und Wale beobachten und studieren",
   summary: "Der M.E.E.R. e.V. studiert seit vielen Jahren Delfine und Wale vor den Kanarischen Inseln. Die Erkenntnisse fördern das Hintergrundwissen zu einem sanften, nachhaltigen Whale-Watching-Tourismus, das zum langfristigen Erhalt des Lebensraums der Tiere beitragen soll. Bei diesem festen 15tägigen Programm bekommen die Teilnehmer theoretischen Einblick in die Verhaltensforschung dieser Meerestiere, fahren selber zu den Tieren hinaus und helfen mit, die Tiere zu beobachten und wissenschaftlich zu erforschen. Gerade das Verhältnis zwischen theoretischer Wissensvermittlung und gesammelter Praxiserfahrung wird seit Jahren von den Teilnehmern gelobt.",
@@ -164,9 +164,9 @@ Project.create(title: "M.E.E.R. e.V., La Gomera, Spanien", preview: "Delfine und
   animals: Animal.where(name: ['Delfin', 'Wal']),
   countries: Country.where(name: ['Spanien', 'Kanaren']),
   tasks: Task.where(name: ['Englisch', 'Spanisch', 'Anerkennung für Studium', 'Datenauswertung', 'Beobachtungen per Boot']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/3/DSC_8057.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/3/DSC_8753.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/3/DSC_8565.jpg'))])
+  images: ["3/DSC_8057.jpg",
+    "3/DSC_8753.jpg",
+    "3/DSC_8565.jpg"])
 
 Project.create(title: "African Impact, Gansbaai, Südafrika", preview: "Weiße Haie studieren und pflegen",
   summary: "Das Great White Shark Projekt von African Impact widmet sich der Aufklärung über Weiße Haie. Hierzu werden auf Bootsausflügen Daten zu den Tieren gesammelt und ausgewertet. In Zusammenarbeit mit Forschern soll das negative Ansehen der Haie verbessert und ein realistischeres Bild vermittelt werden, um die unnötige Tötung von jährlich bis zu 100 Millionen Haien zu stoppen.",
@@ -186,7 +186,7 @@ Project.create(title: "African Impact, Gansbaai, Südafrika", preview: "Weiße H
   animals: Animal.where(name: ['Hai']),
   countries: Country.where(name: ['Südafrika']),
   tasks: Task.where(name: ['Englisch', 'Beobachtungen per Boot', 'Tauchen', 'Datenauswertung', 'Fotografieren/Filmen']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/4/great-white-shark-398276_1920.jpg'))])
+  images: ["4/great-white-shark-398276_1920.jpg"])
 
 Project.create(title: "BatReach, North Queensland, Australien", preview: "Flughunde und Fledermäuse aufziehen",
   summary: "Die BatReach Aufzuchtstation widmet sich der Betreuung verwaister und verletzter Baumtiere mit einem besonderen Fokus auf Flughunde und Fledermäuse. Andere einheimische Tiere werden aber ebenso aufgenommen. Durch Besuchszeiten soll die Öffentlichkeit über die Tiere und ihren Lebensraum aufgeklärt werden, um so einen Beitrag zum Schutz des australischen Ökosystems zu leisten.",
@@ -205,7 +205,7 @@ Project.create(title: "BatReach, North Queensland, Australien", preview: "Flughu
   animals: Animal.where(name: ['Fledermaus', 'Flughund']),
   countries: Country.where(name: ['Australien']),
   tasks: Task.where(name: ['Englisch', 'Arbeit direkt am Tier', 'Betreuung von Besuchern', 'Nachtdienst nur in Notfällen']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/5/flying-fox-231130_1920.jpg'))])
+  images: ["5/flying-fox-231130_1920.jpg"])
 
 Project.create(title: "Modisa Wildlife Project, Botswana", preview: "Löwen, Leoparden und Afrikanische Wildhunde",
   summary: "Das Modisa Wildlife Project verschreibt sich dem Schutz des Ökosystems der Kalahari. Die Pflege von sogenannten 'Problemtieren' steht hier im Vordergrund. Die Löwen, Leoparden und Afrikanischen Wildhunde wurden zu ihrem eigenen Schutz auf den benachbarten Rinderfarmen eingefangen und werden von Modisa versorgt, bis hoffentlich ein Platz zum Auswildern gefunden ist. Das Projekt hat sich auch der Aufklärung und der Forschung bezüglich des Zusammenspiels von Mensch und der weiteren Natur in der Kalahari verschrieben.",
@@ -225,7 +225,7 @@ Project.create(title: "Modisa Wildlife Project, Botswana", preview: "Löwen, Leo
   animals: Animal.where(name: ['Löwe', 'Leopard', 'Afrikanischer Wildhund']),
   countries: Country.where(name: ['Botswana']),
   tasks: Task.where(name: ['Englisch', 'Arbeit direkt am Tier', 'Beobachtungen per Auto', 'Wanderungen']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/6/leo-350690_1920.jpg'))])
+  images: ["6/leo-350690_1920.jpg"])
 
 Project.create(title: "Animal AWARE, Sumpango, Guatemala", preview: "Hunde und Katzen pflegen",
   summary: "Das Animal AWARE-Projekt nimmt kranke Hunde und Katzen auf, teils wilde, teils von ihren Besitzern verwahrlost oder ausgesetzt. Die Tiere werden in einer eigenen Klinik behandelt, kastriert und sterilisiert. Gesundete Tiere vermittelt das Tierheim möglichst in eine neue Familie. Zurzeit leben in dem Tierheim etwa 300 Hunde und 70 Katzen. Außerdem werden verstärkt in der Umgebung Tage organisiert, an denen Besitzer ihre Tiere sterilisieren und kastrieren lassen können. So soll durch Bildung der Bevölkerung das Ansehen des Wertes eines Tierlebens in der Gesellschaft gesteigert werden.",
@@ -243,26 +243,26 @@ Project.create(title: "Animal AWARE, Sumpango, Guatemala", preview: "Hunde und K
   animals: Animal.where(name: ['Hund', 'Katze']),
   countries: Country.where(name: ['Guatemala']),
   tasks: Task.where(name: ['Spanisch', 'Besonderer Einsatz für Tiermediziner', 'Englisch', 'Arbeit direkt am Tier', 'Betreuung von Besuchern', 'Nachtdienst nur in Notfällen']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/7/6.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1238.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/06_Patriota_1_94.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1249.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/05.Thunder_1_141.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1266.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/08.Marina_1_92.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1450.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1451.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/15.kuro3.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1452.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1454.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/1_68.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1456.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1457.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/Furari.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1458.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1460.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1527.jpeg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/7/IMG_1530.jpeg'))])
+  images: ["7/6.jpeg",
+    "7/IMG_1238.JPG",
+    "7/06_Patriota_1_94.jpeg",
+    "7/IMG_1249.jpeg",
+    "7/05.Thunder_1_141.jpeg",
+    "7/IMG_1266.jpeg",
+    "7/08.Marina_1_92.jpeg",
+    "7/IMG_1450.jpeg",
+    "7/IMG_1451.jpeg",
+    "7/15.kuro3.jpeg",
+    "7/IMG_1452.jpeg",
+    "7/IMG_1454.jpeg",
+    "7/1_68.jpeg",
+    "7/IMG_1456.jpeg",
+    "7/IMG_1457.jpeg",
+    "7/Furari.jpeg",
+    "7/IMG_1458.JPG",
+    "7/IMG_1460.jpeg",
+    "7/IMG_1527.jpeg",
+    "7/IMG_1530.jpeg"])
 
 Project.create(title: "OrangUtan Foundation International (dreiwöchig), Borneo, Indonesien",
   preview: "Orang Utans großziehen",
@@ -280,7 +280,7 @@ Project.create(title: "OrangUtan Foundation International (dreiwöchig), Borneo,
   animals: Animal.where(name: ['Orang Utan']),
   countries: Country.where(name: ['Borneo', 'Indonesien']),
   tasks: Task.where(name: ['Indonesisch', 'Englisch', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Anerkennung für Studium', 'Instandhaltungs-/Bauarbeiten']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/8/orangutan-481008_1920.jpg'))])
+  images: ["8/orangutan-481008_1920.jpg"])
 
 Project.create(title: "OrangUtan Foundation International (vier bis sechs Monate), Borneo, Indonesien",
   preview: "Orang Utans großziehen",
@@ -298,7 +298,7 @@ Project.create(title: "OrangUtan Foundation International (vier bis sechs Monate
   animals: Animal.where(name: ['Orang Utan']),
   countries: Country.where(name: ['Borneo', 'Indonesien']),
   tasks: Task.where(name: ['Indonesisch', 'Englisch', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Anerkennung für Studium', 'Instandhaltungs-/Bauarbeiten', 'Arbeit direkt am Tier', 'Landschaftspflege', 'Administrative Arbeit', 'Datenauswertung']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/9/orangutan-481008_1920.jpg'))])
+  images: ["9/orangutan-481008_1920.jpg"])
 
 Project.create(title: "Colobus Conservation, Diani Beach, Kenia",
   preview: "Stummelaffen und ihre heimischen Wälder schützen",
@@ -318,12 +318,12 @@ Project.create(title: "Colobus Conservation, Diani Beach, Kenia",
   animals: Animal.where(name: ['Affe', 'Küstenwald']),
   countries: Country.where(name: ['Kenia']),
   tasks: Task.where(name: ['Englisch', 'Arbeit direkt am Tier', 'Strandlage', 'Unterricht/Aufklärung', 'Datenauswertung', 'Wanderungen', 'Anerkennung für Studium']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/10/Wild_Colobus_troop_with_1_month_old_infant_small.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/10/12141790_907595425987829_7875334350114786918_n.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/10/Colobus_Conservation_vet_team_treating_an_electrocuted_colobus_monkey_small.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/10/DSCN2908.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/10/DSCN2949.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/10/Slide2__3_.JPG'))])
+  images: ["10/Wild_Colobus_troop_with_1_month_old_infant_small.jpg",
+    "10/12141790_907595425987829_7875334350114786918_n.jpg",
+    "10/Colobus_Conservation_vet_team_treating_an_electrocuted_colobus_monkey_small.jpg",
+    "10/DSCN2908.JPG",
+    "10/DSCN2949.JPG",
+    "10/Slide2__3_.JPG"])
 
 Project.create(title: "Kianjavato Ahmanson Field Station, Kianjavato, Madagaskar",
   preview: "Feldstudien zum Verhalten von Lemuren",
@@ -342,13 +342,13 @@ Project.create(title: "Kianjavato Ahmanson Field Station, Kianjavato, Madagaskar
   animals: Animal.where(name: ['Lemur']),
   countries: Country.where(name: ['Madagaskar']),
   tasks: Task.where(name: ['Französisch', 'Wanderungen', 'Datenauswertung', 'Leitende Aufgaben', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/11/Lemur_Mix.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/KAFS_dining_hall.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/KAFS_tent_site.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/Black_and_White_Ruffed_Lemur.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/KAFS_kitchen.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/KAFS_tent_site_2.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/11/Greater_Bamboo_Lemur.jpg'))])
+  images: ["11/Lemur_Mix.jpg",
+    "11/KAFS_dining_hall.jpg",
+    "11/KAFS_tent_site.jpg",
+    "11/Black_and_White_Ruffed_Lemur.jpg",
+    "11/KAFS_kitchen.jpg",
+    "11/KAFS_tent_site_2.jpg",
+    "11/Greater_Bamboo_Lemur.jpg"])
 
 Project.create(title: "Vince Shute Wildlife Sanctuary, Orr, Minnesota, USA", preview: "Schwarzbären studieren",
   summary: "Im Schutzgebiet von Vince Shute studiert die American Bear Association Schwarzbären und andere Tiere in ihrem natürlichen Lebensraum. Durch Wissenszuwachs und Aufklärung der Bevölkerung soll mehr Verständnis für den Schutz der Schwarzbären geschaffen werden. So gibt es auch eine Aussichtsplattform, auf der täglich Besucher aus angemessener Entfernung die tierischen Bewohner beobachten können.",
@@ -366,7 +366,7 @@ Project.create(title: "Vince Shute Wildlife Sanctuary, Orr, Minnesota, USA", pre
   animals: Animal.where(name: ['Bär']),
   countries: Country.where(name: ['USA']),
   tasks: Task.where(name: ['Englisch', 'Kochen/Küchenarbeit', 'Arbeit direkt am Tier', 'Landschaftspflege', 'Betreuung von Besuchern', 'Anerkennung für Studium', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/12/black-bear-937037_1920.jpg'))])
+  images: ["12/black-bear-937037_1920.jpg"])
 
 Project.create(title: "Comunidad Inti Wara Yassi, Bolivien", preview: "Affen, Schildkröten, Jaguare und Vögel pflegen und aufziehen",
   summary: "Die CIWY konzentriert sich vorrangig auf die Pflege von Tieren, die aus illegalem Handel und Gefangenschaft befreit wurden, sowie der Aufklärung der Bevölkerung, um Respekt und Achtung vor dem lokalen Ökosystem zu fördern. Hierbei sorgt man sich in drei Parks in Bolivien um Affen, Schildkröten und Vögel, aber auch Jaguare, Pumas und Tapire. Besonders an diesen Projekten ist der oft auch kurzfristig planbare Einsatz als Volunteer!",
@@ -385,9 +385,9 @@ Project.create(title: "Comunidad Inti Wara Yassi, Bolivien", preview: "Affen, Sc
   animals: Animal.where(name: ['Affe', 'Landschildkröte', 'Jaguar', 'Puma', 'Tapir', 'Vogel']),
   countries: Country.where(name: ['Bolivien']),
   tasks: Task.where(name: ['Englisch', 'Spanisch', 'Arbeit direkt am Tier', 'Instandhaltungs-/Bauarbeiten', 'Leitende Aufgaben', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/13/AA3.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/13/AA5.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/13/AA2.jpg'))])
+  images: ["13/AA3.jpg",
+    "13/AA5.jpg",
+    "13/AA2.jpg"])
 
 Project.create(title: "Caño Palma Biological Station, Tortuguero, Costa Rica", preview: "Tropischen Regenwald erforschen",
   summary: "Gegründet und geleitet von der kanadischen Non-Profit-Organisation COTERC bietet die Caño Palma Station eine Basis für Forschungen zum Schutz des tropischen Regenwaldes. Es werden eigene Forschungsprojekte durchgeführt, aber auch ausgewählten externen Forschern professionelle Rahmen für ihre Studien geboten, so dass die Vielfalt an Projekten hier besonders hoch ausfällt. Meeresschildkröten, Vögel, Faultiere, Kaimane, … hier gibt es viel zu studieren und zu beobachten!",
@@ -405,8 +405,8 @@ Project.create(title: "Caño Palma Biological Station, Tortuguero, Costa Rica", 
   animals: Animal.where(name: ['Regenwald', 'Vogel', 'Meeresschildkröte', 'Krokodil', 'Faultier']),
   countries: Country.where(name: ['Costa Rica']),
   tasks: Task.where(name: ['Englisch', 'Spanisch', 'Strandlage', 'Wanderungen', 'Datenauswertung', 'Instandhaltungs-/Bauarbeiten', 'Unterricht/Aufklärung', 'Arbeit an Landschaft und Tier']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/14/IMG_0346.JPG')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/14/IMG_0260.JPG'))])
+  images: ["14/IMG_0346.JPG",
+    "14/IMG_0260.JPG"])
 
 Project.create(title: "Mindo Sacha Urco, Mindo, Ecuador", preview: "Nebelwald und heimische Tiere schützen",
   summary: "Die Mindo Farm verschreibt sich dem Schutz des lokalen Nebelwaldes und der dort heimischen Tierwelt. Durch Aufforstung, nachhaltigem Anbau und der Sicherung des Lebensraums vieler Tier-, gerade Vogelarten trägt das Projekt zur Stärkung des Ökosystems bei. Volunteers haben die Möglichkeit, hier im Nebelwald eine sehr eindrucksvolle Vogelwelt hautnah zu erleben.",
@@ -424,8 +424,8 @@ Project.create(title: "Mindo Sacha Urco, Mindo, Ecuador", preview: "Nebelwald un
   animals: Animal.where(name: ['Nebelwald', 'Vogel', 'Puma', 'Nasenbär', 'Pekari', 'Gürteltier']),
   countries: Country.where(name: ['Ecuador']),
   tasks: Task.where(name: ['Englisch', 'Spanisch', 'Instandhaltungs-/Bauarbeiten', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Kochen/Küchenarbeit', 'Pflanzen/Bäume ziehen / Aufforsten']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/15/ecuador-766938_1920.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/15/ecuador-1037212_1920.jpg'))])
+  images: ["15/ecuador-766938_1920.jpg",
+    "15/ecuador-1037212_1920.jpg"])
 
 Project.create(title: "Cape Tribulation Research Station, North Queensland, Australien", preview: "Regenwald und Fledermäuse studieren",
   summary: "Die Cape Tribulation Research Station ist eine von der Australian Tropical Research Foundation betriebene Forschungseinrichtung, die hauptsächlich als Basis für ausgesuchte externe Forscher dient. Daher gibt es sehr unterschiedliche Projekte, die sich meist mit dem umgebenden Daintree Forest, einem weltweit einzigartigen Regenwald direkt an der Ozeanküste beschäftigen.",
@@ -444,7 +444,7 @@ Project.create(title: "Cape Tribulation Research Station, North Queensland, Aust
   animals: Animal.where(name: ['Regenwald', 'Fledermaus']),
   countries: Country.where(name: ['Australien']),
   tasks: Task.where(name: ['Englisch', 'Strandlage', 'Datenauswertung', 'Arbeit direkt am Tier', 'Wilde Tiere suchen', 'Landschaftspflege', 'Pflanzen/Bäume ziehen / Aufforsten', 'Arbeit an Landschaft und Tier', 'Instandhaltungs-/Bauarbeiten', 'Anerkennung für Studium']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/16/australia-1325358_1920.jpg'))])
+  images: ["16/australia-1325358_1920.jpg"])
 
 Project.create(title: "Kianjavato Ahmanson Field Station, Kianjavato, Madagaskar", preview: "Regenwald aufforsten und bewahren",
   summary: "Die Kianjavato Ahmanson Field Station ist eine Kooperation der Madagascar Biodiversity Pertnership und dem Omaha Zoo und Aquarium. Forscher schützen hier den heimischen Regenwald und bewahren somit ein überlebenswichtiges Terrain von neun teilweise vom Aussterben bedrohten Lemurenarten. Durch Wiederaufforstungen, Baumschulen und örtliche Aufklärungsarbeit geht die Station gegen die Zerstörung der Wälder und somit der Ausrottung ihrer tierischen Bewohner vor. In einem weiteren Projekt der Station studieren Forscher wilde Lemuren der Umgebung. Siehe hierzu das <a href='/projekts/11'>Lemuren-Projekt</a>. Die hier gesammelten Daten bilden eine essentielle Grundlage für dieses Projekt zum Schutz der Wälder.",
@@ -462,9 +462,9 @@ Project.create(title: "Kianjavato Ahmanson Field Station, Kianjavato, Madagaskar
   animals: Animal.where(name: ['Regenwald']),
   countries: Country.where(name: ['Madagaskar']),
   tasks: Task.where(name: ['Englisch', 'Französisch', 'Wanderungen', 'Datenauswertung', 'Landschaftspflege', 'Pflanzen/Bäume ziehen / Aufforsten', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber']),
-  images: [File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_nursery_2.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_nursery.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_dining_hall.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_kitchen.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_tent_site.jpg')),
-    File.open(File.join(Rails.root, 'public/uploads/project/images/17/KAFS_tent_site_2.jpg'))])
+  images: ["17/KAFS_nursery_2.jpg",
+    "17/KAFS_nursery.jpg",
+    "17/KAFS_dining_hall.jpg",
+    "17/KAFS_kitchen.jpg",
+    "17/KAFS_tent_site.jpg",
+    "17/KAFS_tent_site_2.jpg"])
