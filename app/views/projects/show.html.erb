@@ -61,71 +61,19 @@
 
 <hr><br>
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card show-card">
-      <strong>Kurzbeschreibung:</strong>
-      <p><%= simple_format @project.summary %></p>
-    </div>
-  </div>
+<%= render 'show-card-row', title1: "Kurzbeschreibung",
+                            content1: @project.summary,
+                            title2: "Arbeitsaufgaben",
+                            content2: @project.work
+                            %>
 
-  <div class="col-md-6">
-    <div class="card show-card">
-      <strong>Arbeitsaufgaben:</strong>
-      <p><%= simple_format @project.work %></p>
-    </div>
-  </div>
-</div>
+<%= render 'show-card-row', title1: "Kosten",
+                            content1: @project.costs,
+                            title2: "Unterbringung",
+                            content2: @project.accomodation
+                            %>
 
-<div class="row">
-  <div class="col-md-6">
-    <div class="card show-card">
-      <strong>Kosten:</strong>
-      <p><%= simple_format @project.costs %></p>
-    </div>
-  </div>
-
-  <div class="col-md-6">
-    <div class="card show-card">
-      <strong>Unterbringung:</strong>
-      <p><%= simple_format @project.accomodation %></p>
-    </div>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-auto">
-    <div class="card show-card">
-      <div class="row">
-        <div class="col-auto">
-          <strong>Adresse:</strong>
-        </div>
-        <div class="col-auto">
-          <%= simple_format @project.address %>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-auto">
-    <div class="card show-card">
-      <div class="row">
-        <div class="col-auto">
-          <p><strong>Tel.: </strong></p>
-          <p><strong>Email: </strong></p>
-          <p><strong>Webseite: </strong></p>
-        </div>
-        <div class="col-auto">
-          <p><%= tel_to @project.tel %></p>
-          <p><%= mail_to @project.email %></p>
-          <p><%= link_to 'Webseite des Projekts', @project.webpage, class:'btn btn-sm btn-warning' %></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
+<%= render 'show-card-contact' %>
 
 <%= link_to 'Zurück', url_for(:back), class:'btn btn-sm btn-warning' %>
 <%= admin_links(@project, edit_project_path(@project)) %>

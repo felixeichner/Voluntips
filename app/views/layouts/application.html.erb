@@ -11,16 +11,13 @@
   </head>
 
   <body>
-    <div class="site-wrapper">
-	    
-	    <%= render "layouts/top_navbar" %>
 
-	    <div class="content-container">
-	    	<%= stylesheet_link_tag 'projects' %>
-	    	<%= yield %>
-	  	</div>
-	  
-	  </div>
+    <%= render "layouts/top_navbar" %>
+
+    <div class="content-container">
+    	<%= stylesheet_link_tag 'projects' %>
+    	<%= yield %>
+  	</div>
 
   </body>
 </html>
