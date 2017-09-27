@@ -1,14 +1,20 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @volun_text.title %>
-</p>
+<div class="card show-card">
 
-<p>
-  <strong>Body:</strong>
-  <%= @volun_text.body %>
-</p>
+	<%= render 'volun_text_nav' %>
 
-<%= link_to 'Edit', edit_volun_text_path(@volun_text) %> |
-<%= link_to 'Back', volun_texts_path %>
+	<div class="content-container">
+			<br>
+			<h3><strong>
+	  		Volunteering - <%= @volun_text.title %>
+	  		<%= link_to 'Neues Projekt', new_project_path, class: "btn btn-warning" %>
+			</strong></h3>
+			<br>
+			<strong>
+		  	<%= simple_format @volun_text.body %>
+			</strong>
+</div>
+</div>
+
+<%= admin_links(@volun_text, edit_volun_text_path(@volun_text)) %>

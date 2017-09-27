@@ -1,0 +1,9 @@
+<nav class="nav nav-tabs">
+  <% @volun_texts.each do |volun_text| %>
+    <div class="nav-item">
+      <strong><%= link_to volun_text.title, volun_text,
+      						class: "nav-link #{'active' if volun_text == @volun_text}" %></strong>
+    </div>
+  <% end %>
+</nav>
+

@@ -51,6 +51,43 @@ body {
   max-width: 100%;
 }
 
+.card {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.projects-card, .image-map-card {
+  padding: 1rem;
+  height: 100%;
+}
+
+.show-card {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem; 
+  min-height: 88%;
+  max-width: 100%;
+  text-align: justify;
+  color: #363636;
+}
+
+.image-map-card {
+  margin-bottom: 1rem; 
+  color: #363636; 
+}
+
+.slide-images {
+
+  min-height: auto;
+  max-width: 100%;
+  margin: auto
+}
+
+.fa {
+  font-size: xx-large;
+  color: black;
+}
+
 /*
  * Header
  */
@@ -59,6 +96,9 @@ body {
 	top: 0;
 }
 
+.masthead-brand {
+  min-width: 200px;
+}
 
 .nav-masthead {
 	horizontal-align: center;
@@ -83,6 +123,19 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.nav-tabs {
+  margin-left: 1rem;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-tabs .nav-link {
+  border-color: #ddd #ddd #fff;
+  box-shadow: 3px -1px 2px #888888;
 }
 
 /*

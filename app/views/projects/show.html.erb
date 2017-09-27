@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h2><center><strong><%= @project.title %><strong></center></h2>
+<h2><center><strong><%= @project.title %></strong></center></h2>
 <h4><center><%= @project.preview %></center></h4>
 
 <hr>
@@ -23,5 +23,4 @@
 
 <%= render 'show-card-contact' %>
 
-<%= link_to 'Zurück', url_for(:back), class:'btn btn-sm btn-warning' %>
 <%= admin_links(@project, edit_project_path(@project)) %>

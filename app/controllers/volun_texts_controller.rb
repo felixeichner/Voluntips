@@ -1,15 +1,10 @@
 class VolunTextsController < ApplicationController
   before_action :set_volun_text, only: [:show, :edit, :update, :destroy]
 
-  # GET /volun_texts
-  # GET /volun_texts.json
-  def index
-    @volun_texts = VolunText.all
-  end
-
   # GET /volun_texts/1
   # GET /volun_texts/1.json
   def show
+    @volun_texts = VolunText.all
   end
 
   # GET /volun_texts/new
