@@ -1,6 +1,7 @@
 <div class="row">
   <div class="col-auto">
     <div class="card show-card">
+      
       <div class="row">
         <div class="col-auto">
           <strong>Adresse:</strong>
@@ -9,28 +10,36 @@
           <%= simple_format @project.address %>
         </div>
       </div>
+    
     </div>
   </div>
 
   <div class="col-auto">
     <div class="card show-card">
-      <div class="row">
-        <div class="col-auto">
-          <p><strong>Tel.: </strong></p>
+      
+      <% unless @project.tel == "" %>
+        <div class="row">
+          <div class="col-auto">
+            <p><strong>Tel.: </strong></p>
+          </div>
+          <div class="col text-right" style="white-space: nowrap;">
+            <p><%= tel_to @project.tel %></p>
+          </div>
         </div>
-        <div class="col text-right" style="white-space: nowrap;">
-          <p><%= tel_to @project.tel %></p>
+      <% end %>
+      
+      <% unless @project.email == "" %>
+        <div class="row">
+          <div class="col-auto">
+            <p><strong>Email: </strong></p>
+          </div>
+          <div class="col text-right" style="white-space: nowrap;">
+            <p><%= mail_to @project.email %></p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-auto">
-          <p><strong>Email: </strong></p>
-        </div>
-        <div class="col text-right" style="white-space: nowrap;">
-          <p><%= mail_to @project.email %></p>
-        </div>
-      </div>
-      <div class="row">
+      <% end %>
+      
+      <div class="row">  
         <div class="col-auto">
           <p><strong>Webseite: </strong></p>
         </div>
@@ -38,6 +47,7 @@
           <p><%= link_to 'Webseite des Projekts', @project.webpage, class:'btn btn-sm btn-warning' %></p>
         </div>
       </div>
+
     </div>
   </div>
 </div>
