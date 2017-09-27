@@ -10,6 +10,8 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.json
   def show
+    @page_title = "Voluntips | Projekt: " + @project.title
+    set_show_keywords
   end
 
   # GET /projects/new

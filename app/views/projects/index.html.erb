@@ -2,18 +2,16 @@
 
 <div class="container">
   <h3>
-    Freiwilligenarbeit - Projekte
+    Freiwilligenarbeit - Projekte im Natur- und Tierschutz
     <%= link_to 'Neues Projekt', new_project_path, class: "btn btn-warning" %>
   </h3>
   <hr><br>
-
 
   <div class="row">
     <% @projects.each do |project| %>
       <div class="col-lg-3 col-md-4 col-sm-6" style="margin-bottom: 1rem">
         <div class="card projects-card">
           <div class="card-block">
-            
             <%= link_to project do %>
               <%= image_tag project.images.first,
                   width: '100%', height: 'auto', style: "margin-bottom: 1rem" %>
@@ -24,7 +22,6 @@
             <div>
               <%= admin_links(project, edit_project_path(project)) %>
             </div>
-
           </div>
         </div>
       </div>
