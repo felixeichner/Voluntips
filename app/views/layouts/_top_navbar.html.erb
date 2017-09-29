@@ -8,9 +8,12 @@
     		</button>
 
 				<div class="collapse navbar-collapse" id="navbarHeader">
-	    		<%= link_to "Projekte", projects_path, class: "nav-link #{'active' if controller_name == 'projects'}" %>
-  				<%= link_to "Volunteering", volun_text_path(VolunText.first), class: "nav-link #{'active' if controller_name == 'volun_texts'}" %>
-  				<%= link_to "Kontakt", root_path, class: "nav-link #{'active' if controller_name == 'legals'}" %>
+	    		<%= link_to "Projekte", projects_path,
+	    				class: "nav-link #{active?(controller_name, 'projects')}" %>
+  				<%= link_to "Volunteering", volun_text_path(VolunText.first),
+  						class: "nav-link #{active?(controller_name, 'volun_texts')}" %>
+  				<%= link_to "Kontakt", root_path,
+  						class: "nav-link #{active?(controller_name, 'legals')}" %>
 		    </div>
 
 		</nav>

@@ -8,4 +8,8 @@ module ApplicationHelper
 												data: { confirm: 'Are you sure?' }, class: "btn btn-sm btn-warning")
 	end
 
+  def active?(key, value)
+  	"active" if key == value
+  end
+
 end

@@ -4,10 +4,6 @@ module ProjectsHelper
     link_to text, "tel:#{groups.join '-'}"
   end
 
-  def active?(image, first_image)
-  	"active" if image == first_image
-  end
-
   def google_maps_helper
 		if @project.lat? && @project.lgt?
 			(@project.lat + "," + @project.lgt + "&center=" + (@project.lat.to_i+6).to_s + "," + @project.lgt)

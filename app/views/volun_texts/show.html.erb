@@ -5,16 +5,17 @@
 	<%= render 'volun_text_nav' %>
 
 	<div class="content-container">
-			<br>
-			<h3><strong>
-	  		Volunteering - <%= @volun_text.title %>
-	  		<%= link_to 'Neues Projekt', new_project_path, class: "btn btn-warning" %>
-			</strong></h3>
-			<br>
-			<strong>
-		  	<%= simple_format @volun_text.body %>
-			</strong>
-</div>
+		<br>
+		<h3><strong>
+  		Volunteering - <%= @volun_text.title %>
+  		<%= link_to 'Neues Projekt', new_project_path, class: "btn btn-warning" %>
+		</strong></h3>
+		<br>
+		<strong>
+	  	<%= simple_format @volun_text.body %>
+		</strong>
+	</div>
+
 </div>
 
 <%= admin_links(@volun_text, edit_volun_text_path(@volun_text)) %>
