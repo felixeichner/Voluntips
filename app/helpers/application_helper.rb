@@ -12,4 +12,12 @@ module ApplicationHelper
   	"active" if key == value
   end
 
+	def current_action_label
+		if action_name == "new"
+			"Erstellen"
+		else
+			"Ändern"
+		end
+	end
+
 end

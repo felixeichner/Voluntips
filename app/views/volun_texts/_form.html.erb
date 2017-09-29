@@ -1,3 +1,5 @@
+<hr><br>
+
 <%= form_with(model: volun_text, local: true) do |form| %>
   <% if volun_text.errors.any? %>
     <div id="error_explanation">
@@ -11,17 +13,20 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title, id: :volun_text_title %>
-  </div>
+  <div class="content-container">
+    <div class="form-group">
+      <strong><%= form.label :title %></strong>
+      <%= form.text_field :title, id: :volun_text_title, class: "form-control" %>
+    </div>
 
-  <div class="field">
-    <%= form.label :body %>
-    <%= form.text_area :body, id: :volun_text_body %>
-  </div>
+    <div class="form-group">
+      <strong><%= form.label :body %></strong>
+      <%= form.text_area :body, id: :volun_text_body, rows: 15, class: "form-control" %>
+    </div>
 
-  <div class="actions">
-    <%= form.submit %>
+    <div class="actions">
+      <%= form.submit current_action_label, class: "btn btn-warning" %>
+    </div>
   </div>
+  <br>
 <% end %>

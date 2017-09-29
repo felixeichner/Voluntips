@@ -1,6 +1,5 @@
-<h1>Editing Volun Text</h1>
+<h1>Bearbeite "Volunteering- <%=@volun_text.title %>"</h1>
 
 <%= render 'form', volun_text: @volun_text %>
 
-<%= link_to 'Show', @volun_text %> |
-<%= link_to 'Back', volun_texts_path %>
+<%= link_to 'Zurück', url_for(:back), class:'btn btn-sm btn-warning' %>
