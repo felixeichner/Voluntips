@@ -1,9 +1,19 @@
-<nav class="nav nav-tabs">
-  <% @volun_texts.each do |volun_text| %>
-    <div class="nav-item">
-      <strong><%= link_to volun_text.title, volun_text,
-      						class: "nav-link #{'active' if volun_text == @volun_text}" %></strong>
-    </div>
-  <% end %>
+<nav class="nav navbar-expand-md nav-tabs">
+	<div class="nav-item dropdown">
+	
+		<button class="nav-link navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#volun_text_navs" aria-expanded="false">
+      <strong>Volunteering</strong>
+		</button>
+	
+    <div class="collapse navbar-collapse" id="volun_text_navs">
+		  <% @volun_texts.each do |volun_text| %>
+	    	<div class="nav-item">
+		      <strong><%= link_to volun_text.title, volun_text,
+	  	    						class: "nav-link #{'active' if volun_text == @volun_text}" %></strong>
+	    	</div>
+		  <% end %>
+  	</div>
+
+	</div>
 </nav>
 
