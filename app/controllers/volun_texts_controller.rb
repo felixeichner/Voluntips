@@ -1,6 +1,8 @@
 class VolunTextsController < ApplicationController
   before_action :set_volun_text, only: [:show, :edit, :update, :destroy]
 
+  access all: [:show], user: {except: [:new, :edit, :create, :update, :destroy]}, admin: :all
+
   # GET /volun_texts/1
   # GET /volun_texts/1.json
   def show

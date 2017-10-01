@@ -1,5 +1,3 @@
-<p id="notice"><%= notice %></p>
-
 <div class="card show-card">
 
 	<%= render 'volun_text_nav' %>
@@ -8,7 +6,7 @@
 		<br>
 		<h3><strong>
   		Volunteering - <%= @volun_text.title %>
-  		<%= link_to 'Neuer Artikel', new_volun_text_path, class: "btn btn-warning" %>
+			<%= link_to "Neuer Artikel", new_volun_text_path, class: "btn btn-warning" if logged_in?(:admin) %>
 		</strong></h3>
 		<br>
 		<strong>
@@ -18,4 +16,5 @@
 
 </div>
 
-<%= link_button_helper(@volun_text, edit_volun_text_path(@volun_text)) %>
+<%= link_to 'Zurück', url_for(:back), class: "btn btn-warning" %>
+<%= admin_links(@volun_text, edit_volun_text_path(@volun_text)) %>
