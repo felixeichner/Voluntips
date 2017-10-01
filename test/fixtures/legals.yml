@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datenschutz: MyText
+  disclaimer: MyText
+  impressum: MyText
+
+two:
+  datenschutz: MyText
+  disclaimer: MyText
+  impressum: MyText
