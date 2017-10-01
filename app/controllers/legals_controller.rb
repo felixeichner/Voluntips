@@ -9,4 +9,7 @@ class LegalsController < ApplicationController
   def disclaimer
   end
   
+  def contact
+  end
+  
 end

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'datenschutz', to: 'legals#datenschutz'
   get 'disclaimer', to: 'legals#disclaimer'
   get 'impressum', to: 'legals#impressum'
+  get 'contact', to: 'legals#contact'
 
   root "projects#index"
 end
