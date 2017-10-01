@@ -16,17 +16,18 @@
 	  				<%= link_to "Volunteering", volun_text_path(VolunText.first),
 	  						class: "nav-link #{active?(controller_name, 'volun_texts')}" %>
 	  			</div>
-	  			<div class="col-auto">	<%= link_to "Kontakt", root_path,
+	  			<div class="col-auto">
+	  				<%= link_to "Kontakt", root_path,
 	  						class: "nav-link #{active?(controller_name, 'legals')}" %>
 	  			</div>
 	  			<div class="col"></div>
 	  			<div class="col-auto col-right">
   					<%= link_to "Datenschutz", datenschutz_path,
-	    				class: "#{active?(action_name, 'datenschutz')}" %><br>
+	    					class: "#{active?(action_name, 'datenschutz')}" %><br>
   					<%= link_to "Disclaimer", disclaimer_path,
-	    				class: "#{active?(action_name, 'disclaimer')}" %><br>
+	    					class: "#{active?(action_name, 'disclaimer')}" %><br>
   					<%= link_to "Impressum", impressum_path,
-	    				class: "#{active?(action_name, 'impressum')}" %>
+	    					class: "#{active?(action_name, 'impressum')}" %>
   				</div>
 		    </div>
 

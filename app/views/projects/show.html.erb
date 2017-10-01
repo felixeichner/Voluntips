@@ -9,17 +9,15 @@
 
 <hr><br>
 
-<%= render 'show-card-row', title1: "Kurzbeschreibung",
-                            content1: @project.summary,
-                            title2: "Arbeitsaufgaben",
-                            content2: @project.work
-                            %>
+<div class="row">
+	<%= render 'show-card', title: "Kurzbeschreibung", content: @project.summary %>
+  <%= render 'show-card', title: "Arbeitsaufgaben", content: @project.work %>
+</div>
 
-<%= render 'show-card-row', title1: "Kosten",
-                            content1: @project.costs,
-                            title2: "Unterbringung",
-                            content2: @project.accomodation
-                            %>
+<div class="row">
+	<%= render 'show-card', title: "Kosten", content: @project.costs %>
+  <%= render 'show-card', title: "Unterbringung", content: @project.accomodation %>
+</div>
 
 <%= render 'show-card-contact' %>
 
