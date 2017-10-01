@@ -1,7 +1,7 @@
 module ProjectsHelper
 	def tel_to(text)
     groups = text.to_s.scan(/(?:^\+)?\d+/)
-    link_to text, "tel:#{groups.join '-'}"
+    link_to text, "tel:#{groups.join '-'}", style: "white-space: nowrap;"
   end
 
   def google_maps_helper

@@ -194,3 +194,9 @@ body {
 		max-width: 100%;
 	}
 }
+
+@media (max-width: 38em) {
+  .content-container, .show-card {
+    text-align: left;
+  }
+}
