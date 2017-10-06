@@ -31,6 +31,29 @@ body {
   background-size: cover;
 }
 
+.content {
+  display: flex;
+}
+
+.left_navbar {
+  margin-right: 1rem;
+  margin-top: 6rem;
+  text-align: center;
+  align-items: start !important;
+}
+
+.btn-designed {
+  display: inline-block;
+  background-color: #D98D0B;
+  color: #282828;
+  font-weight: bold;
+  box-shadow: 5px 5px 3px #888888;
+}
+
+.btn-filter {
+  display: block !important;
+}
+
 .cover-container, .content-container {
   background-color: rgba(255,255,255,0.5);
   border-radius: 1rem;
@@ -60,6 +83,7 @@ body {
 .projects-card, .image-map-card {
   padding: 1rem;
   height: 100%;
+  box-shadow: 5px 5px 3px #707070;
 }
 
 .show-card {
@@ -110,7 +134,7 @@ body {
 
 .nav-masthead .nav-link {
   padding: .25rem 0.7rem;
-  margin: 0.6rem 5rem 0.6rem 0;
+  margin: 1rem;
   font-size: large;
   font-weight: bold;
   color: rgba(255,255,255,.9);
@@ -195,8 +219,29 @@ body {
 	}
 }
 
-@media (max-width: 38em) {
+@media (max-width: 62em) {
   .content-container, .show-card {
     text-align: left;
+  }
+
+  .navbar {
+    justify-content: start;
+  }
+
+  .navitem-large {
+    display: none;
+  }
+
+  .content {
+    display: inherit;
+  }
+
+  .left_navbar {
+    text-align: center;
+    align-items: start !important;
+  }
+
+  .navbar-toggler {
+    border: none;
   }
 }

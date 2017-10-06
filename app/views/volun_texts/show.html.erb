@@ -6,7 +6,7 @@
 		<br>
 		<h3><strong>
   		Volunteering - <%= @volun_text.title %>
-			<%= link_to "Neuer Artikel", new_volun_text_path, class: "btn btn-warning" if logged_in?(:admin) %>
+			<%= link_to "Neuer Artikel", new_volun_text_path, class: "btn btn-designed" if logged_in?(:admin) %>
 		</strong></h3>
 		<br>
 		<strong>
@@ -16,5 +16,5 @@
 
 </div>
 
-<%= link_to 'Zurück', url_for(:back), class: "btn btn-warning" %>
+<%= link_to 'Zurück', url_for(:back), class: "btn btn-designed" %>
 <%= admin_links(@volun_text, edit_volun_text_path(@volun_text)) %>

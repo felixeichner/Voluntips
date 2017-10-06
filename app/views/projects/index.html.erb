@@ -1,11 +1,16 @@
 <div class="container">
-  <h3><strong>
-    Freiwilligenarbeit - Projekte im Natur- und Tierschutz
-    <%= link_to "Neues Projekt", new_project_path, class: "btn btn-warning" if logged_in?(:admin) %>
-  </strong></h3>
-  <hr><br>
-
-  <div class="row">
-    <%= render @projects %>
-  </div>
+	<div class="content">
+	  <%= render "layouts/left_navbar", class: "float-lg-left" %>
+		<div class="float-lg-right">
+		  <h3><strong>
+		    Freiwilligenarbeit - Projekte im Natur- und Tierschutz
+		    <%= link_to "Neues Projekt", new_project_path,
+		    						class: "btn btn-designed" if logged_in?(:admin) %>
+		  </strong></h3>
+		  <hr><br>
+		  <div class="row">
+		    <%= render @projects %>
+		  </div>
+		</div>
+	</div>
 </div>
