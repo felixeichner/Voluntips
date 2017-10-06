@@ -9,10 +9,30 @@
 				<h3>Projekte filtern</h3>
 				<hr>
 			</span>
-			<p><%= link_to "Tiere an Land", projects_path('', terrain: 'Land'), class: "btn btn-designed btn-filter" %></p>
-			<p><%= link_to "Tiere zu Wasser", '', class: "btn btn-designed btn-filter" %></p>
-			<p><%= link_to "Tiere in der Luft", '', class: "btn btn-designed btn-filter" %></p>
-			<p><%= link_to "Landschaftsprojekte", '', class: "btn btn-designed btn-filter" %></p>
+			<p>
+				<%= link_to "Tiere an Land", projects_path('', :terrain => 'Land'),
+										class: "btn btn-designed btn-filter
+														#{active?(@session_params['terrain'], 'Land')}"
+				%>
+			</p>
+			<p>
+				<%= link_to "Tiere zu Wasser", projects_path('', :terrain => 'Wasser'),
+										class: "btn btn-designed btn-filter
+														#{active?(@session_params['terrain'], 'Wasser')}"
+				%>
+			</p>
+			<p>
+				<%= link_to "Tiere in der Luft", projects_path('', :terrain => 'Luft'),
+										class: "btn btn-designed btn-filter
+														#{active?(@session_params['terrain'], 'Luft')}"
+				%>
+			</p>
+			<p>
+				<%= link_to "Landschaftsprojekte", projects_path('', :terrain => 'Landschaft'),
+										class: "btn btn-designed btn-filter
+														#{active?(@session_params['terrain'], 'Landschaft')}"
+				%>
+			</p>
 			<span class="navitem-large">
 				<hr>
 				<p><%= link_to "mehr Filter", '', class: "btn btn-designed btn-filter dropdown-toggle" %></p>

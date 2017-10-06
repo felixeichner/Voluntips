@@ -18,4 +18,6 @@ class Project < ApplicationRecord
   has_many :project_tasks, dependent: :destroy
   has_many :tasks, through: :project_tasks
 
+  scope :order_by_title, -> { order(:title).all }
+
 end

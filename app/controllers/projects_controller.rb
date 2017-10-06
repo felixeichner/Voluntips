@@ -3,10 +3,11 @@ class ProjectsController < ApplicationController
 
   access all: [:index, :show], user: {except: [:new, :edit, :create, :update, :destroy]}, admin: :all
 
+  include SelectProjects
+
   # GET /projects
   # GET /projects.json
   def index
-    @projects = Project.all
   end
 
   # GET /projects/1
