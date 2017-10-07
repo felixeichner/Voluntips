@@ -58,7 +58,7 @@ body {
   border: #555 solid;
 }
 
-.cover-container, .content-container {
+.cover-container, .content-container, .voluntext-container {
   background-color: rgba(255,255,255,0.5);
   border-radius: 1rem;
   padding: 1rem;
@@ -72,6 +72,10 @@ body {
 
 .content-container, a {
   color: #545454;
+}
+
+.voluntext-container {
+  margin-bottom: 1rem;
 }
 
 .col-auto, .col {
