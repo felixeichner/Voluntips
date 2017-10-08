@@ -12,13 +12,10 @@ module ApplicationHelper
 	
 	end
 
-	def filter_button_helper(label, terrain)
-		link_to label, projects_path('', :terrain => terrain),
-						class: "btn btn-designed btn-filter #{active?(@session_params['terrain'], terrain)}"
-	end
-
   def active?(key, value)
-  	"active" if key == value
+  	"active" if (key.nil? && value.nil? &&
+  							 @session_params == {"controller"=>"projects", "action"=>"index"}) ||
+  							 (!key.nil? && key.include?(value))
   end
 
 	def current_action_label

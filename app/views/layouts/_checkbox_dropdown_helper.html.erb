@@ -1,0 +1,19 @@
+<div class="btn-group">
+  <%= link_to "#", class: "btn btn-sm btn-designed dropdown-toggle", "data-toggle" => "dropdown" do %><%= title %><span class="glyphicon glyphicon-menu-down"></span><% end %>
+  <div class="dropdown-menu <%= design %>">
+    <% table.order(order1).order(order2).each do |item| %>
+      <label class="checkbox-inline no-ident col-md-12">
+        <%= check_box_tag(
+              param+'[]',
+              item.read_attribute(column),
+              (@session_params[param].include?(item.read_attribute(column)) if @session_params[param]),
+              {class: "checkbox"})
+        %>
+        <span class="checkbox-label">
+          <%= item.read_attribute(column) %>
+        </span>
+      </label>
+    <% end %>
+  </div>
+</div><br>
+

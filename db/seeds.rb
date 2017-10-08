@@ -277,7 +277,7 @@ Project.create(title: "OrangUtan Foundation International (dreiwöchig), Borneo,
   tel: "+1 310 820 4906", email: "ofivolunteer@gmail.com", webpage: "http://www.orangutan.org/",
   min_weeks: 3, costs_week: 400, accom_standard: "einfach", lat: "-3.114803", lgt: "111.950703",
   accoms: Accom.where(name: ['Mehrbettzimmer/Schlafsaal']),
-  animals: Animal.where(name: ['Orang Utan']),
+  animals: Animal.where(name: ['Orang Utan', 'Affe']),
   countries: Country.where(name: ['Borneo', 'Indonesien']),
   tasks: Task.where(name: ['Indonesisch', 'Englisch', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Anerkennung für Studium', 'Instandhaltungs-/Bauarbeiten']),
   images: ["8/orangutan-481008_1920.jpg"])
@@ -295,7 +295,7 @@ Project.create(title: "OrangUtan Foundation International (vier bis sechs Monate
   tel: "+1 310 820 4906", email: "ofivolunteer@gmail.com", webpage: "http://www.orangutan.org/",
   min_weeks: 17, costs_week: 132, accom_standard: "mittel", lat: "-3.114803", lgt: "111.950703",
   accoms: Accom.where(name: ['Gastfamilie', 'Einzelzimmer']),
-  animals: Animal.where(name: ['Orang Utan']),
+  animals: Animal.where(name: ['Orang Utan', 'Affe']),
   countries: Country.where(name: ['Borneo', 'Indonesien']),
   tasks: Task.where(name: ['Indonesisch', 'Englisch', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Anerkennung für Studium', 'Instandhaltungs-/Bauarbeiten', 'Arbeit direkt am Tier', 'Landschaftspflege', 'Administrative Arbeit', 'Datenauswertung']),
   images: ["9/orangutan-481008_1920.jpg"])

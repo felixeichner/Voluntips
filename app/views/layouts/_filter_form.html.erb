@@ -1,0 +1,60 @@
+<span data-toggle="collapse" data-target="#moreFilter" aria-controls="moreFilter" aria-expanded="false" aria-label="Toggle navigation">
+  <%= link_to "weitere Filter", '', class: "btn btn-designed btn-filter dropdown-toggle" %>
+</span>
+
+<div class="filter-container collapse" id="moreFilter">
+  
+  <%= form_tag(projects_path, method: :get) do %>
+    
+
+    <%= render partial: 'layouts/checkbox_helper', locals: {title: "Terrain der Tiere", table: @animals, order: "", column: "terrain", param: "terrains"} %>
+
+    <%= render partial: 'layouts/checkbox_helper', locals: {title: "Kontinente", table: @countries, order: "region1", column: "region1", param: "regions"} %>
+
+    <div style="font-weight: bold">
+      Max. Aufenthalt in Wochen:
+      <%= number_field_tag :min_weeks, nil, min: 0, step: 1,
+            value: @session_params['min_weeks'], style: "width:4rem;" %>
+    </div>
+
+    <div style="font-weight: bold">
+      Max. Kosten/Woche in EUR:
+      <%= number_field_tag :costs_week, nil, min: 0, step: 10,
+            value: @session_params['costs_week'], style: "width:4rem; margin-bottom: 5px" %>
+    </div>
+
+    <%= render partial: 'layouts/checkbox_dropdown_helper',
+               locals: {title: "Tiere/Landschaft", table: @animals, order1: "terrain",
+                        order2: "name", column: "name", param: "animals",
+                        design: "filter-dropdown-menu-lg"}
+    %>
+
+    <%= render partial: 'layouts/checkbox_dropdown_helper',
+               locals: {title: "Länder", table: @countries, order1: "name", order2: "",
+                        column: "name", param: "countries", design: "filter-dropdown-menu-sm"}
+    %>
+
+    <%= render partial: 'layouts/checkbox_dropdown_helper',
+               locals: {title: "Arbeitsmerkmale", table: @tasks, order1: "category",
+                        order2: "name", column: "name", param: "tasks",
+                        design: "filter-dropdown-menu-xl"}
+    %>
+
+    <%= render partial: 'layouts/checkbox_dropdown_helper',
+               locals: {title: "Unterbringungsmerkmale", table: @accoms, order1: "category",
+                        order2: "name", column: "name", param: "accoms",
+                        design: "filter-dropdown-menu-md"}
+    %>
+
+    <%= render partial: 'layouts/checkbox_dropdown_helper',
+               locals: {title: "Unterbringungsstandard",
+                        table: @projects_all.select('distinct accom_standard'),
+                        order1: "", order2: "", column: "accom_standard", param: "accom_standards",
+                        design: ""}
+    %>
+
+    <%= submit_tag 'Projekte filtern', class: "btn btn-submit" %>
+
+  <% end %>
+
+</div>

@@ -1,0 +1,19 @@
+<strong><%= title %>:</strong><br>
+<div class="btn-group checkbox-group">
+  <div class="row">
+    <% table.order(order).uniq {|t| t.read_attribute(column)}.each do |item| %>
+      <label class="checkbox-inline no-ident col-auto">
+        <%= check_box_tag(
+              param+"[]",
+              item.read_attribute(column),
+              (@session_params[param].include?(item.read_attribute(column)) if @session_params[param]),
+              {class: "checkbox"})
+        %>
+        <span class="checkbox-label">
+          <%= item.read_attribute(column) %>
+        </span>
+      </label>
+    <% end %>
+  </div>
+</div>
+<br>

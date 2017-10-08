@@ -1,0 +1,311 @@
+=> [[32m#<Project:0x007f9a04210868[0m
+  id: [1;34m7[0m,
+  title: [32m"Animal AWARE, Sumpango, Guatemala"[0m[0m,
+  preview: [32m"Hunde und Katzen pflegen"[0m[0m,
+  summary:
+   [32m"Das Animal AWARE-Projekt nimmt kranke Hunde und Katzen auf, teils wilde, teils von ihren Besitzern verwahrlost oder ausgesetzt. Die Tiere werden in einer eigenen Klinik behandelt, kastriert und sterilisiert. Gesundete Tiere vermittelt das Tierheim möglichst in eine neue Familie. Zurzeit leben in dem Tierheim etwa 300 Hunde und 70 Katzen. Außerdem werden verstärkt in der Umgebung Tage organisiert, an denen Besitzer ihre Tiere sterilisieren und kastrieren lassen können. So soll durch Bildung der Bevölkerung das Ansehen des Wertes eines Tierlebens in der Gesellschaft gesteigert werden."[0m[0m,
+  qualification:
+   [32m"Die Arbeit ist körperlich anstrengend und dazu psychisch streckenweise sehr belastend. Besondere Vorkenntnisse sind nicht notwendig, allerdings müssen die Freiwilligenarbeiter meist selbständig arbeiten und Entscheidungen treffen. Helfer mit tiermedizinischem Hintergrund werden natürlich äußerst gern gesehen. Wer gerne in der Bildung der lokalen Bevölkerung mitarbeiten möchte, muss fließend Spanisch sprechen."[0m[0m,
+  work:
+   [32m"Fünf Tage pro Woche wird etwa sechs Spunden  pro Tag gearbeitet. Die Hilfe in der Klinik hängt stark von der jeweiligen Vorbildung zur Tierbehandlung ab. Neben den Aufgaben hier gehen die Volunteers mit den Hunden Gassi, erziehen sie, halten ihre Gehege sauber, füttern, baden und bürsten die Tiere und organisieren Spendenaktionen. Der Tag beginnt gegen 7 Uhr früh. In Notfällen werden auch Freiwilligenarbeiter spontan außerhalb der regulären Zeiten zu Hilfe gezogen."[0m[0m,
+  accomodation:
+   [32m"Als Freiwilliger hat man die Wahl, entweder auf dem Gelände des Tierheims unterzukommen oder sich eine Unterkunft in der Umgebung zu organisieren. Die Unterkunft im Tierheim ist einfach gehalten, mit einem Zimmer mit einem Stockbett und einem Einzelbett sowie einer kleinen Küche mit Gasherd und Kühlschrank. Das Bad mit Warmwasserdusche teilen sich somit ein bis drei Volunteers. Internet ist in der Unterkunft nicht vorhanden."[0m[0m,
+  costs:
+   [32m"5 USD pro Tag bei Unterbringung im Tierheim, Verpflegung nicht inklusive\n\n  Bei externer Unterbringung sind keine Beiträge an Animal AWARE zu leisten\n\n  Mindestaufenthalt: zwei Wochen"[0m[0m,
+  address: [32m"Sumpango\n\n  Guatemala"[0m[0m,
+  tel: [32m"+502 5401 3148"[0m[0m,
+  email: [32m"info@animalaware.org"[0m[0m,
+  webpage: [32m"http://animalaware.org/how-to-help/volunteer/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m30[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"14.654940"[0m[0m,
+  lgt: [32m"-90.720191"[0m[0m,
+  images:
+   [[32m"7/6.jpeg"[0m[0m,
+    [32m"7/IMG_1238.JPG"[0m[0m,
+    [32m"7/06_Patriota_1_94.jpeg"[0m[0m,
+    [32m"7/IMG_1249.jpeg"[0m[0m,
+    [32m"7/05.Thunder_1_141.jpeg"[0m[0m,
+    [32m"7/IMG_1266.jpeg"[0m[0m,
+    [32m"7/08.Marina_1_92.jpeg"[0m[0m,
+    [32m"7/IMG_1450.jpeg"[0m[0m,
+    [32m"7/IMG_1451.jpeg"[0m[0m,
+    [32m"7/15.kuro3.jpeg"[0m[0m,
+    [32m"7/IMG_1452.jpeg"[0m[0m,
+    [32m"7/IMG_1454.jpeg"[0m[0m,
+    [32m"7/1_68.jpeg"[0m[0m,
+    [32m"7/IMG_1456.jpeg"[0m[0m,
+    [32m"7/IMG_1457.jpeg"[0m[0m,
+    [32m"7/Furari.jpeg"[0m[0m,
+    [32m"7/IMG_1458.JPG"[0m[0m,
+    [32m"7/IMG_1460.jpeg"[0m[0m,
+    [32m"7/IMG_1527.jpeg"[0m[0m,
+    [32m"7/IMG_1530.jpeg"[0m[0m],
+  slug: [32m"animal-aware-sumpango-guatemala"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a042103e0[0m
+  id: [1;34m14[0m,
+  title: [32m"Caño Palma Biological Station, Tortuguero, Costa Rica"[0m[0m,
+  preview: [32m"Tropischen Regenwald erforschen"[0m[0m,
+  summary:
+   [32m"Gegründet und geleitet von der kanadischen Non-Profit-Organisation COTERC bietet die Caño Palma Station eine Basis für Forschungen zum Schutz des tropischen Regenwaldes. Es werden eigene Forschungsprojekte durchgeführt, aber auch ausgewählten externen Forschern professionelle Rahmen für ihre Studien geboten, so dass die Vielfalt an Projekten hier besonders hoch ausfällt. Meeresschildkröten, Vögel, Faultiere, Kaimane, … hier gibt es viel zu studieren und zu beobachten!"[0m[0m,
+  qualification:
+   [32m"Gute körperliche Gesundheit ist natürlich Grundvoraussetzung. Tropische Temperaturen sollten einem außerdem wenig ausmachen. Besondere Qualifikationen und Kenntnisse werden beim individuellen Einsatz der Volunteers gerne versucht zu berücksichtigen. Spanischkenntnisse sind von Vorteil, aber nicht Voraussetzung."[0m[0m,
+  work:
+   [32m"Je nach Projekt fallen die Aufgaben sehr unterschiedlich aus. Zur Beobachtung einzelner Tierarten werden Wanderungen von drei bis zwölf Kilometern durch den Regenwald und entlang der Strände unternommen. Aber auch bei der Instandhaltung der Wege, der Aufzeichnung von Wetterdaten, dem Abwasch und Kochen oder dem Vorbereiten der Unterkünfte für neu ankommende Forscher werden Volunteers einbezogen. Dazu kommen Vorbereitungen von Unterrichtsstunden zur Aufklärung an der örtlichen Schule."[0m[0m,
+  accomodation:
+   [32m"Die Mitarbeiter werden in einer Gemeinschaftsunterkunft mit bis zu 30 Personen in einem Schlafsaal untergebracht. Elektrizität, fließend Wasser, eine Waschmaschine und Internet sind vorhanden. Eine große Küche dient als Gemeinschaftsraum."[0m[0m,
+  costs:
+   [32m"250 USD pro Woche inklusive Unterkunft und Verpflegung\n\n  Zehn Tage Mindestaufenthalt"[0m[0m,
+  address:
+   [32m"P.O. Box 335\n\n  Pickering, Ontario, L1V 2R6\n\n  Canada"[0m[0m,
+  tel: [32m"+1 905 831 8809"[0m[0m,
+  email: [32m"info@coterc.org"[0m[0m,
+  webpage: [32m"http://www.coterc.org/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m225[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"10.5944586"[0m[0m,
+  lgt: [32m"-83.5571152"[0m[0m,
+  images: [[32m"14/IMG_0346.JPG"[0m[0m, [32m"14/IMG_0260.JPG"[0m[0m],
+  slug: [32m"cano-palma-biological-station-tortuguero-costa-rica"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a04210070[0m
+  id: [1;34m10[0m,
+  title: [32m"Colobus Conservation, Diani Beach, Kenia"[0m[0m,
+  preview: [32m"Stummelaffen und ihre heimischen Wälder schützen"[0m[0m,
+  summary:
+   [32m"Colobus Conservation zielt auf den Schutz der in den Küstenwäldern Südostkenias beheimateten Angola-Stummelaffen sowie anderer Primaten und ihrer natürlichen Lebensräume ab. Hierzu werden zum Beispiel Aufklärung in der Bevölkerung betrieben, gegen illegale Haustierhaltung vorgegangen und ausgesetzte wie überfahrene Tiere gepflegt, aufgezogen und möglichst wieder ausgewildert. Das ganze findet direkt an den traumhaften Küsten des indischen Ozeans statt."[0m[0m,
+  qualification:
+   [32m"Freiwilligenarbeiter müssen mindestens 22 Jahre alt sein. Ein Studienabschluss oder einschlägige Berufserfahrung sind erwünscht. Das heiße und feuchte Klima fordert dazu eine stabile, gute körperliche Verfassung und körperliche Belastbarkeit."[0m[0m,
+  work:
+   [32m"Die meisten Volunteers arbeiten in der Pflege der Tiergehege, bei Fütterungen, auf Touren durch die Wälder, aber auch beim Spendensammeln und in der Aufklärung der Bevölkerung. Arbeitszeiten variieren stark, je nach Einsatz. So können teils nächtliche Wanderungen in den Wäldern zu Forschungszwecken notwendig werden oder sonntags Fütterungen der Tiere. Jeder Helfer hat aber ein bis zwei Tage die Woche frei. Freiwilligenarbeiter mit besonderer Ausbildung oder Berufserfahrung können ebenso, soweit benötigt, in ihren Spezialgebieten eingesetzt werden. Für Studenten gibt es außerdem Möglichkeiten, Feldstudien für Masterthesen oder Doktorarbeiten bei Colobus Conservation durchzuführen."[0m[0m,
+  accomodation:
+   [32m"Jeder kann für sich entscheiden, ob er sich extern in der Umgebung oder im Gemeinschaftshaus auf dem sicherheitsüberwachten Projekt-Gelände unterbringt. Hier werden die Volunteers in einem sauberen Haus mit einfachem Standard in geschlechtergetrennten Drei- bis Vierbettzimmern mit Ventilator einquartiert. Die Zimmergenossen teilen sich ein Badezimmer. Elektrizität und fließend Wasser sind vorhanden, wobei Warmwasser und Elektrizität phasenweise nicht verfügbar sein können. Mahlzeiten werden zubereitet, lediglich sonntags ist jeder für seine Verpflegung selber verantwortlich. Eine voll ausgestattete Küche ist hierfür ebenfalls vorhanden, genauso wie Restaurants und Supermärkte in der Umgebung. Außer für die eigene Unterwäsche wird sogar ein Wäschereiservice zur Verfügung gestellt."[0m[0m,
+  costs:
+   [32m"71.500 Kenianische Schilling für zwei Wochen\n\n  264.000 Kenianische Schilling für 12 Wochen\n\n  inklusive Unterbringung, Verpflegung, Transfers, Zimmerreinigung, Wäscherei und Sicherheitsdienst"[0m[0m,
+  address: [32m"P.O. Box 5380\n\n  Diani Beach 80401\n\n  Kenya"[0m[0m,
+  tel: [32m"+254 711 479 453"[0m[0m,
+  email: [32m"enquiries@colobusconservation.org"[0m[0m,
+  webpage: [32m"http://www.colobusconservation.org/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m240[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"-4.344381"[0m[0m,
+  lgt: [32m"39.564913"[0m[0m,
+  images:
+   [[32m"10/Wild_Colobus_troop_with_1_month_old_infant_small.jpg"[0m[0m,
+    [32m"10/12141790_907595425987829_7875334350114786918_n.jpg"[0m[0m,
+    [32m"10/Colobus_Conservation_vet_team_treating_an_electrocuted_colobus_monkey_small.jpg"[0m[0m,
+    [32m"10/DSCN2908.JPG"[0m[0m,
+    [32m"10/DSCN2949.JPG"[0m[0m,
+    [32m"10/Slide2__3_.JPG"[0m[0m],
+  slug: [32m"colobus-conservation-diani-beach-kenia"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a0420b7c8[0m
+  id: [1;34m13[0m,
+  title: [32m"Comunidad Inti Wara Yassi, Bolivien"[0m[0m,
+  preview:
+   [32m"Affen, Schildkröten, Jaguare und Vögel pflegen und aufziehen"[0m[0m,
+  summary:
+   [32m"Die CIWY konzentriert sich vorrangig auf die Pflege von Tieren, die aus illegalem Handel und Gefangenschaft befreit wurden, sowie der Aufklärung der Bevölkerung, um Respekt und Achtung vor dem lokalen Ökosystem zu fördern. Hierbei sorgt man sich in drei Parks in Bolivien um Affen, Schildkröten und Vögel, aber auch Jaguare, Pumas und Tapire. Besonders an diesen Projekten ist der oft auch kurzfristig planbare Einsatz als Volunteer!"[0m[0m,
+  qualification:
+   [32m"In diesen Projekten gilt ein Mindestalter von 18 Jahren und selbstverständlich ist eine gute Gesundheit für die Arbeit mit den Tieren unerlässlich. Die Temperaturen von oft über 30° Celsius und Luftfeuchtigkeit von 65-90% können den Körper teilweise stark belasten. Qualifikationen in Form von Vorerfahrungen oder Kenntnissen sind nicht notwendig."[0m[0m,
+  work:
+   [32m"In welches der Center man möchte, kann man selber wählen. Die Arbeitszeit beträgt meist etwa neun Stunden pro Tag, wobei Pausen von bis zu zweieinhalb Stunden eingeplant werden. Volunteers kümmern sich um die jeweils zu betreuenden Tiere, gehen mit ihnen auch auf Spaziergänge, säubern die Lebensräume, halten sie instand und bereiten Mahlzeiten vor."[0m[0m,
+  accomodation:
+   [32m"Die Unterbringungsarten sind sehr unterschiedlich je nach gewähltem Projektcenter, meist aber in Schlafsälen. Die Unterkünfte haben je nach Projekt teilweise keine Elektrizität und keinen Handyempfang. Auch fließend Wasser steht nicht überall zur Verfügung, sondern kommt je nach Projekt aus dem Brunnen oder Fluss."[0m[0m,
+  costs:
+   [32m"Ein Mindestaufenthalt von 14 Tagen besteht, abgesehen vom Puma-Center. Je nach Dauer können die Kosten variieren. Hier aufgeführt sind Beispiele in der Landeswährung Boliviano:\n\n  1.770 Bs für 15 Nächte\n\n  3.770 Bs für 30 Nächte"[0m[0m,
+  address: [32m"Casilla 1600\n\n  Cochabamba\n\n  Bolivia"[0m[0m,
+  tel: [32m"+591 4 413 6572"[0m[0m,
+  email: [32m"info@intiwarayassi.org"[0m[0m,
+  webpage: [32m"http://www.intiwarayassi.org/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m115[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"-16.9717533"[0m[0m,
+  lgt: [32m"-65.4117125"[0m[0m,
+  images:
+   [[32m"13/AA3.jpg"[0m[0m, [32m"13/AA5.jpg"[0m[0m, [32m"13/AA2.jpg"[0m[0m],
+  slug: [32m"comunidad-inti-wara-yassi-bolivien"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a04209658[0m
+  id: [1;34m11[0m,
+  title: [32m"Kianjavato Ahmanson Field Station, Kianjavato, Madagaskar"[0m[0m,
+  preview: [32m"Feldstudien zum Verhalten von Lemuren"[0m[0m,
+  summary:
+   [32m"Die Kianjavato Ahmanson Field Station beobachtet und studiert wilde Lemuren, um ihren Lebensraum und ihren Bestand besser schützen zu können. Als Kooperation der Madagascar Biodiversity Partnership und dem Omaha Zoo und Aquarium sammelt die Station Daten über die Tiere. Auf Wanderungen folgen die Mitarbeiter Lemurenfamilien in der Umgebung und gewinnen so mehr Informationen über deren Bedürfnisse. Dieses Wissen ist eine wichtige Grundlage, um magasassische Wälder und weiterer Lebensräume der Lemuren bewahren zu können. Weitere Informationen gibt es beim <a href='/projekts/17'>Regenwald-Projekt der Station</a>."[0m[0m,
+  qualification:
+   [32m"Erfahrungen mit eigenständigen Forschungen sowie ein Bachelor in Biologie oder einem ähnlich mit dem Projekt verwandten Bereich wird sehr begrüßt. Die Arbeit im Team wie auch selbständig erfordert ein hohes Maß an Teamfähigkeit, aber eben auch Eigenverantwortung. Eine gute körperliche Verfassung ist durch das feuchte, tropische Klima ebenso wichtig."[0m[0m,
+  work:
+   [32m"Die Freiwilligenarbeit besteht hauptsächlich in der Assistenz in Projekten zu zwei Lemurenarten. Auf Wanderungen durch die Wälder um Kianjavato-Vatovavy folgen Volunteers Familien des Großen Bambuslemur und des Schwarzweißen Vari. Dabei werden Daten zum Verhalten in der Gruppe, der Habitatnutzung und -verteidigung gesammelt. Mit etwas Erfahrung übernehmen die Volunteers normalerweise auch die Leitung einzelner Projekte. Gearbeitet wird Montag bis Freitag von 6.30 Uhr morgens bis 14.30 Uhr oder 16.30 Uhr."[0m[0m,
+  accomodation:
+   [32m"Die Einrichtungen und Ausstattungen der Station sind einfach, aber sauber gehalten und verfügen über einen naturnahen Charme. Unter einem großen Gemeinschaftsdach schlagen die Freiwilligenarbeiter eigene Zelte zum Schlafen auf. Gefiltertes Trinkwasser aus zwei Brunnen und Elektrizität stehen zur Verfügung. Einfache Duschen und Toiletten finden sich auf dem Stationsgelände. Fließend Wasser gibt es nicht. In einem offenen, überdachten Esssaal werden drei Mahlzeiten am Tag vom Küchenpersonal serviert, die meist auf Reis basieren. Jeder kümmert sich selber per Handwäsche um die eigene Kleidung."[0m[0m,
+  costs:
+   [32m"810 USD für sechs Monate (Minimumaufenthalt)\n\n  inklusive Unterbringung, Verpflegung, Elektrizität und Wasser"[0m[0m,
+  address: [32m"VO 12 BIS A\n\n  Manakambahiny, 102\n\n  Antananarivo"[0m[0m,
+  tel: [32m"+1 402 738 2095"[0m[0m,
+  email: [32m"mbp@madagascarpartnership.org"[0m[0m,
+  webpage: [32m"http://madagascarpartnership.org/volunteering/"[0m[0m,
+  min_weeks: [1;34m26[0m,
+  costs_week: [1;34m30[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"-21.380236"[0m[0m,
+  lgt: [32m"47.866815"[0m[0m,
+  images:
+   [[32m"11/Lemur_Mix.jpg"[0m[0m,
+    [32m"11/KAFS_dining_hall.jpg"[0m[0m,
+    [32m"11/KAFS_tent_site.jpg"[0m[0m,
+    [32m"11/Black_and_White_Ruffed_Lemur.jpg"[0m[0m,
+    [32m"11/KAFS_kitchen.jpg"[0m[0m,
+    [32m"11/KAFS_tent_site_2.jpg"[0m[0m,
+    [32m"11/Greater_Bamboo_Lemur.jpg"[0m[0m],
+  slug: [32m"kianjavato-ahmanson-field-station-kianjavato-madagaskar"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a042090b8[0m
+  id: [1;34m15[0m,
+  title: [32m"Mindo Sacha Urco, Mindo, Ecuador"[0m[0m,
+  preview: [32m"Nebelwald und heimische Tiere schützen"[0m[0m,
+  summary:
+   [32m"Die Mindo Farm verschreibt sich dem Schutz des lokalen Nebelwaldes und der dort heimischen Tierwelt. Durch Aufforstung, nachhaltigem Anbau und der Sicherung des Lebensraums vieler Tier-, gerade Vogelarten trägt das Projekt zur Stärkung des Ökosystems bei. Volunteers haben die Möglichkeit, hier im Nebelwald eine sehr eindrucksvolle Vogelwelt hautnah zu erleben."[0m[0m,
+  qualification:
+   [32m"Generell sind alle Naturfreunde ab einem Alter von 18 Jahren gerne gesehen. Besondere Qualifikationen von zum Beispiel Biologen, Fotografen und Landwirten können sehr gut in der Arbeit vor Ort eingebracht werden."[0m[0m,
+  work:
+   [32m"Der Arbeitstag von Volunteers fängt früh morgens an, so dass man bereits gegen sieben Uhr nach einem selbst zubereiteten Frühstück mit der Arbeit beginnen kann. Es werden Pausen eingelegt und meist werden pro Tag etwa fünf Stunden gearbeitet. Die Tätigkeiten sind abwechslungsreich, vom Kochen über Waldaufforstungen und Feldbestellungen bis hin zu Bauarbeiten."[0m[0m,
+  accomodation:
+   [32m"Die Unterbringung erfolgt in Holzhütten und ist bodenständig mit Schlafsälen und Gemeinschaftsbädern."[0m[0m,
+  costs: [32m"100 USD pro Woche\n\n  Zwei Wochen Mindestaufenthalt"[0m[0m,
+  address:
+   [32m"Calle Gonzales Suarez Oe5-197 y Joaquin Castro\n\n  Tumbaco, Pichincha, Quito\n\n  Ecuador"[0m[0m,
+  tel: [32m"+593 9 8193 1685"[0m[0m,
+  email: [32m"info@mindosachaurco.org"[0m[0m,
+  webpage: [32m"http://www.mindosachaurco.org/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m100[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"-0.048717"[0m[0m,
+  lgt: [32m"-78.775198"[0m[0m,
+  images:
+   [[32m"15/ecuador-766938_1920.jpg"[0m[0m,
+    [32m"15/ecuador-1037212_1920.jpg"[0m[0m],
+  slug: [32m"mindo-sacha-urco-mindo-ecuador"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a042085a0[0m
+  id: [1;34m6[0m,
+  title: [32m"Modisa Wildlife Project, Botswana"[0m[0m,
+  preview: [32m"Löwen, Leoparden und Afrikanische Wildhunde"[0m[0m,
+  summary:
+   [32m"Das Modisa Wildlife Project verschreibt sich dem Schutz des Ökosystems der Kalahari. Die Pflege von sogenannten 'Problemtieren' steht hier im Vordergrund. Die Löwen, Leoparden und Afrikanischen Wildhunde wurden zu ihrem eigenen Schutz auf den benachbarten Rinderfarmen eingefangen und werden von Modisa versorgt, bis hoffentlich ein Platz zum Auswildern gefunden ist. Das Projekt hat sich auch der Aufklärung und der Forschung bezüglich des Zusammenspiels von Mensch und der weiteren Natur in der Kalahari verschrieben."[0m[0m,
+  qualification:
+   [32m"Besondere Voraussetzungen musst du für ein Volunteering-Programm bei Modisa nicht erfüllen. Je nach Jahreszeit kann es eine sehr hohe Luftfeuchtigkeit geben und tagsüber sehr heiß werden. Solltest du damit nicht gut zurecht kommen, achte genau auf deine bevorzugte Reisezeit."[0m[0m,
+  work:
+   [32m"Die Aufgaben sind sehr vielfältig. Dazu zählen die Instandhaltung der Farm und des Camps und das Vorbereiten der Mahlzeiten für die Tiere und deren Fütterung. Ausfahrten in das Reservat, Wanderungen und die Beobachtung der Flora und Fauna stehen regelmäßig auf dem Plan und erlauben das hautnahe Erleben dieses faszinierenden Ökosystems."[0m[0m,
+  accomodation:
+   [32m"Für Übernachtungen sind Zweimannzelte auf einer Holzplattform über der Erde installiert. Duschen und Toiletten sind ebenso vorhanden wie eine voll ausgestattete Küche, eine Bar und ein Essbereich. Ein Solarpanel bietet genug Elektrizität für Licht und das Laden von Kameras. Einmal in der Woche sowie nach der Ankunft im Camp gibt es die Möglichkeit, Internet per WLAN zu nutzen. Wäsche wird per Hand gewaschen, die Utensilien hierfür sind vorhanden. Ein Koch sorgt täglich für abwechslungsreiche Ernährung."[0m[0m,
+  costs:
+   [32m"2.295 USD für vier Wochen, inklusive Unterkunft, Verpflegung und einigen Aktivitäten\n\n  jede weitere Woche 495 USD\n\n  Empfohlener Minimumaufenthalt zwei Wochen"[0m[0m,
+  address: [32m"P.Bag 114\n\n  Suite 3\n\n  Maun\n\n  Botswana"[0m[0m,
+  tel: [32m""[0m[0m,
+  email: [32m"booking@modisa.org"[0m[0m,
+  webpage: [32m"http://www.modisa.org/"[0m[0m,
+  min_weeks: [1;34m2[0m,
+  costs_week: [1;34m500[0m,
+  accom_standard: [32m"mittel"[0m[0m,
+  lat: [32m"-19.995262"[0m[0m,
+  lgt: [32m"23.418077"[0m[0m,
+  images: [[32m"6/leo-350690_1920.jpg"[0m[0m],
+  slug: [32m"modisa-wildlife-project-botswana"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a0038ffa8[0m
+  id: [1;34m8[0m,
+  title:
+   [32m"OrangUtan Foundation International (dreiwöchig), Borneo, Indonesien"[0m[0m,
+  preview: [32m"Orang Utans großziehen"[0m[0m,
+  summary:
+   [32m"Die OFI betreibt in Borneo eine Aufzuchtstation zur Auswilderung verwaister und in Gefangenenschaft, meist als Haustier wenig artgerecht lebender Orang Utans. Sie leistet hierbei einen essentiellen Beitrag zum Bestandschutz dieser äußerst bedrohten Tierart wie auch zur Aufklärung der Bevölkerung in Zusammenarbeit mit Polizei und Behörden. Volunteers können sich in dreiwöchigen Projekten hauptsächlich im Ausbau der Infrastruktur einbringen."[0m[0m,
+  qualification:
+   [32m"Mit oder ohne besondere Ausbildung sind Volunteers gerne im OFI-Projekt gesehen. Schweißtreibende Arbeit bei tropischem, schwülen Klima sollte einem allerdings lieber nicht zu viel ausmachen. Bewerber mit einem tiermedizinischen Hintergrund haben zusätzlich die Chance, ein unbezahltes Praktikum zu absolvieren. Englischkenntnisse werden vorausgesetzt. Indonesisch hilft, ist aber nicht notwendig."[0m[0m,
+  work:
+   [32m"Bei dreiwöchigen Projekten besteht die Arbeit hauptsächlich im Aufbau und der Erweiterung der Infrastruktur, z.B. im Bau von Brücken oder Fitnessgeräten für junge Orang Utans. Es wird sechs Tage die Woche je etwa acht Stunden vorrangig körperlich anstrengende Arbeit verrichtet, die aber bei durchschnittlicher körperlicher Verfassung ohne Probleme zu leisten sein sollte."[0m[0m,
+  accomodation:
+   [32m"Für dreiwöchige Projekte gibt es zwei Arten von Unterkünften, auf die die Teilnehmer nach Bedarf verteilt werden, zum einen provisorische Hütten im Wald, zum anderen feste Hütten der Organisation. Die Unterkünfte inklusive Toiletten und Duschen sind rudimentär, fließend Warmwasser steht nicht bereit."[0m[0m,
+  costs: [32m"1.275 USD für drei Wochen"[0m[0m,
+  address: [32m"824 Wellesley Ave\n\n  Los Angeles, CA 90049\n\n  USA"[0m[0m,
+  tel: [32m"+1 310 820 4906"[0m[0m,
+  email: [32m"ofivolunteer@gmail.com"[0m[0m,
+  webpage: [32m"http://www.orangutan.org/"[0m[0m,
+  min_weeks: [1;34m3[0m,
+  costs_week: [1;34m400[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"-3.114803"[0m[0m,
+  lgt: [32m"111.950703"[0m[0m,
+  images: [[32m"8/orangutan-481008_1920.jpg"[0m[0m],
+  slug:
+   [32m"orangutan-foundation-international-dreiwochig-borneo-indonesien"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a0038fdc8[0m
+  id: [1;34m9[0m,
+  title:
+   [32m"OrangUtan Foundation International (vier bis sechs Monate), Borneo, Indonesien"[0m[0m,
+  preview: [32m"Orang Utans großziehen"[0m[0m,
+  summary:
+   [32m"Die OFI betreibt in Borneo eine Aufzuchtstation zur Auswilderung verwaister und in Gefangenenschaft, meist als Haustier wenig artgerecht lebender Orang Utans. Sie leistet hierbei einen essentiellen Beitrag zum Bestandschutz dieser äußerst bedrohten Tierart wie auch zur Aufklärung der Bevölkerung in Zusammenarbeit mit Polizei und Behörden. Volunteers können sich für vier bis sechs Monate in den unterschiedlichen Bereichen der Aufzucht und Pflege einbringen."[0m[0m,
+  qualification:
+   [32m"Mit oder ohne besondere Ausbildung sind Volunteers gerne im OFI-Projekt gesehen. Schweißtreibende Arbeit bei tropischem, schwülen Klima sollte einem allerdings lieber nicht zu viel ausmachen. Bewerber mit einem tiermedizinischen Hintergrund haben zusätzlich die Chance, ein unbezahltes Praktikum zu absolvieren. Englischkenntnisse werden vorausgesetzt. Indonesisch hilft, ist aber nicht notwendig."[0m[0m,
+  work:
+   [32m"Die vier- bis sechsmonatigen Engagements haben je nach Themengebiet sehr unterschiedliche Aufgabe. Es kann sich um administrative Organisation genauso wie medizinische Versorgung handeln. Genaue Beschreibungen der Tätigkeiten finden sich auf der Webseite von OFI. Ein Acht-Stunden-Tag ist auch hier regulär."[0m[0m,
+  accomodation:
+   [32m"Wer sich langfristig einbringt, wird möglichst in einer einheimischen Gastfamilie untergebracht. Hier kann der Wohnkomfort variieren, man sollte aber keinen Luxus erwarten."[0m[0m,
+  costs: [32m"etwa 3.800 USD für sechs Monate"[0m[0m,
+  address: [32m"824 Wellesley Ave\n\n  Los Angeles, CA 90049\n\n  USA"[0m[0m,
+  tel: [32m"+1 310 820 4906"[0m[0m,
+  email: [32m"ofivolunteer@gmail.com"[0m[0m,
+  webpage: [32m"http://www.orangutan.org/"[0m[0m,
+  min_weeks: [1;34m17[0m,
+  costs_week: [1;34m132[0m,
+  accom_standard: [32m"mittel"[0m[0m,
+  lat: [32m"-3.114803"[0m[0m,
+  lgt: [32m"111.950703"[0m[0m,
+  images: [[32m"9/orangutan-481008_1920.jpg"[0m[0m],
+  slug:
+   [32m"orangutan-foundation-international-vier-bis-sechs-monate-borneo-indonesien"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m,
+ [32m#<Project:0x007f9a0038fc10[0m
+  id: [1;34m12[0m,
+  title: [32m"Vince Shute Wildlife Sanctuary, Orr, Minnesota, USA"[0m[0m,
+  preview: [32m"Schwarzbären studieren"[0m[0m,
+  summary:
+   [32m"Im Schutzgebiet von Vince Shute studiert die American Bear Association Schwarzbären und andere Tiere in ihrem natürlichen Lebensraum. Durch Wissenszuwachs und Aufklärung der Bevölkerung soll mehr Verständnis für den Schutz der Schwarzbären geschaffen werden. So gibt es auch eine Aussichtsplattform, auf der täglich Besucher aus angemessener Entfernung die tierischen Bewohner beobachten können."[0m[0m,
+  qualification:
+   [32m"Die Arbeit ist teils körperlich recht anstrengend, so dass körperliche Fitness für viele Aufgaben notwendig ist. Die Betreiber des Schutzgebietes gehen aber auf individuelle Bedürfnisse der Volunteers ein. Teilnehmer müssen über 18 Jahre alt sein."[0m[0m,
+  work:
+   [32m"Neben Kochen für die Mitarbeiter und Abwaschen kümmern sich die Volunteers hauptsächlich um die Schwarzbären und die Betreuung der Besucher des Schutzgebietes. Dies geht von der Beschaffung von Obst und Nüssen über Bepflanzungen und Holzhacken bis hin zur Frage- und Antwort-Stunde mit Besuchern. Für Studenten mit passendem Fachgebiet bietet Vince Shute auch Praktikastellen an."[0m[0m,
+  accomodation:
+   [32m"Die Unterkünfte sind sehr einfach gehalten, ohne fließend Wasser oder Elektrizität. Dafür wird versucht, die Mitarbeiter kostenfrei in den Häusern des Sanctuary zu beherbergen."[0m[0m,
+  costs:
+   [32m"Für das Projekt und die Mitarbeit ist kein Beitrag zu leisten. Die Anreise, Verpflegung und Freizeitgestaltung verursacht natürlich dennoch Kosten. Vince Shute bietet allen Mitarbeitern jeden Tag Mahlzeiten kostenfrei an."[0m[0m,
+  address:
+   [32m"The American Bear Association\n\n  PO Box 77\n\n  Orr, MN 55771\n\n  USA"[0m[0m,
+  tel: [32m"+1 218 757 0172"[0m[0m,
+  email: [32m"bears@americanbear.org"[0m[0m,
+  webpage: [32m"http://www.americanbear.org/"[0m[0m,
+  min_weeks: [1;34m0[0m,
+  costs_week: [1;34m0[0m,
+  accom_standard: [32m"einfach"[0m[0m,
+  lat: [32m"48.0887057"[0m[0m,
+  lgt: [32m"-93.01796759999999"[0m[0m,
+  images: [[32m"12/black-bear-937037_1920.jpg"[0m[0m],
+  slug: [32m"vince-shute-wildlife-sanctuary-orr-minnesota-usa"[0m[0m,
+  created_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m,
+  updated_at: [1;34;4mTue[0m, [1;34m26[0m [1;34;4mSep[0m [1;34m2017[0m [1;34m14[0m:[1;34m47[0m:[1;34m27[0m [1;34;4mUTC[0m [1;34m+00[0m:[1;34m00[0m[32m>[0m]

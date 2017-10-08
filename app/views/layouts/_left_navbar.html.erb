@@ -14,10 +14,7 @@
 			<p><%= filter_button_helper("Tiere zu Wasser", "Wasser") %></p>
 			<p><%= filter_button_helper("Tiere in der Luft", "Luft") %></p>
 			<p><%= filter_button_helper("Landschaftsprojekte", "Landschaft") %></p>
-			<span class="navitem-large">
-				<hr>
-				<p><%= link_to "mehr Filter", '', class: "btn btn-designed btn-filter dropdown-toggle" %></p>
-			</span>
+			<%= render 'layouts/filter_form' %>
 		</div>
 	</div>
 </nav>

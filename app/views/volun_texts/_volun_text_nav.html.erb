@@ -9,7 +9,7 @@
 		  <% @volun_texts.each do |volun_text| %>
 	    	<div class="nav-item">
 		      <strong><%= link_to volun_text.title, volun_text,
-	  	    						class: "nav-link #{active?(volun_text, @volun_text)}" %></strong>
+	  	    						class: "nav-link #{active?([volun_text], @volun_text)}" %></strong>
 	    	</div>
 		  <% end %>
   	</div>
