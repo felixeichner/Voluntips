@@ -22,6 +22,8 @@ body {
 
 .content {
   display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
 }
 
 .left_navbar {
