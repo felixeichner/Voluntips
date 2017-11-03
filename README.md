@@ -1,6 +1,6 @@
-# voluntips.herokuapp.com
+# http://www.voluntips.de
 
-This is the ruby code to the website __[voluntips.herokuapp.com](https://voluntips.herokuapp.com)__
+This is the ruby code to the website __[http://www.voluntips.de](http://www.voluntips.de)__ deployed to Heroku.
 
 
 ## Purpose of the website

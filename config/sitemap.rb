@@ -1,6 +1,7 @@
 # Set the host name for URL creation
 SitemapGenerator::Sitemap.default_host = "http://www.voluntips.de"
 SitemapGenerator::Sitemap.compress = false
+SitemapGenerator::Sitemap.create_index = true
 
 SitemapGenerator::Sitemap.create do
 

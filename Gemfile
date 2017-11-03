@@ -60,6 +60,6 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'devise', '~> 4.3'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
-gem 'sitemap_generator', '~> 5.3', '>= 5.3.1'
+gem 'sitemap_generator', '~> 6.0'
 
 ruby "2.4.1"
