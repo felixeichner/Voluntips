@@ -8,22 +8,13 @@
     <meta name="keywords" content="<%= @seo_keywords %>">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109141164-1"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'facebook_sdk', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div id="fb-root"></div>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.12';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <div id="fb-root" data-turbolinks-permanent></div>
 
     <%= render "layouts/top_navbar" %>
 
@@ -34,6 +25,6 @@
     	<%= yield %>
   	
     </div>
-
+    <script src="//platform.twitter.com/widgets.js"></script>
   </body>
 </html>
