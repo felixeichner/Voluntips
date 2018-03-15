@@ -58,8 +58,13 @@ Animal.create(name: "Vogel", terrain: "Luft")
 Animal.create(name: "Faultier", terrain: "Land")
 Animal.create(name: "Regenwald", terrain: "Landschaft")
 Animal.create(name: "Nebelwald", terrain: "Landschaft")
+Animal.create(name: "Savanne", terrain: "Landschaft")
 Animal.create(name: "Pekari", terrain: "Land")
 Animal.create(name: "Gürteltier", terrain: "Land")
+Animal.create(name: "Antilope", terrain: "Land")
+Animal.create(name: "Pavian", terrain: "Land")
+Animal.create(name: "Zebra", terrain: "Land")
+Animal.create(name: "Strauß", terrain: "Land")
 
 Country.create(name: "Australien", region1: "Australien")
 Country.create(name: "Bahamas", region1: "Mittelamerika")
@@ -68,6 +73,7 @@ Country.create(name: "Borneo", region1: "Asien")
 Country.create(name: "Botswana", region1: "Afrika")
 Country.create(name: "Costa Rica", region1: "Mittelamerika")
 Country.create(name: "Ecuador", region1: "Südamerika")
+Country.create(name: "Ghana", region1: "Afrika")
 Country.create(name: "Guatemala", region1: "Mittelamerika")
 Country.create(name: "Indonesien", region1: "Asien")
 Country.create(name: "Kanaren", region1: "Europa", region2: "Afrika")
@@ -128,6 +134,31 @@ Project.create(title: "Bahamas Marine Conservation, Bahamas", preview: "Korallen
     "1/diving.jpg",
     "1/K1600_Bahamas_accomodation.JPG",
     "1/Group_Bahamas.jpg"])
+
+Project.create(title: "Shai Hills Resource Reserve, Ghana",
+  preview: "Antilopen, Paviane und andere Wildtiere schützen und pflegen",
+  summary: "Rainbow Garden Village hat in Zusammenarbeit mit der Wildlifebehörde Ghanas das Tierschutz-Projekt in Shai Hills entwickelt. Dieses Schutzgebiet für Antilopen, Paviane, aber auch Zebras, Strauße und weitere Tiere widmet sich dem Schutz heimischer Tiere und der Aufklärung der Bevölkerung zum Thema. Allem voran der Arterhalt heimischer Antilpen steht hier im Mittelpunkt.",
+  qualification: "Die Aufgaben sind meist körperlich anstrengend, so dass ein gesundes Maß an körperlicher Fitness erforderlich ist - ein ausgeprägter Teamgeist und die Bereitschaft mit anzupacken verstehen sich von selbst. Englisch reicht an Sprachkenntnissen aus. Das Mindestalter beträgt 17 Jahre.",
+  work: "Je nach saisonalen Gegebenheiten haben Volunteers unterschiedliche Aufgaben: Tierfütterung, Reinigung und Instandhaltung von Gelände und Gehegen, Besucherbetreuung, Geländeführungen,… Der Hauptteil der Arbeit fällt regulär in der Tierpflege an. Meist arbeiten Volunteers Montag bis Freitag 8 – 17 Uhr, natürlich inklusive einer Mittagspause.",
+  accomodation: "In einem direkt an das Reservat angeschlossenen Apartment teilen sich je zwei mal zwei Freiwilligenarbeiter ein Schlafzimmer. Das Apartment verfügt darüber hinaus über ein Gemeinschaftsbad mit Dusche und WC, eine Küche und einen Aufenthaltsraum. Hier kann der Arbeitstag beim gemeinsamen Frühstück und Abendessen eingeleutet werden oder gemütlich ausklingen.",
+  costs: "Ab 2.590 EUR für 12 Wochen inklusive Unterbringung und Verpflegung.\n
+  Mindestaufenthalt: 12 Wochen",
+  address: "Rainbow Garden Village\n
+  Hohenlindener Str. 1\n
+  81677 München\n
+  Deutschland",
+  tel: "+49 89 454 537 93", email: "info@rainbowgardenvillage.com",
+  webpage: "https://www.rainbowgardenvillage.com/freiwilligenarbeit-im-ausland/ghana/freiwilligenarbeit-im-wildtierreservat-in-ghana",
+  min_weeks: 12, costs_week: 215, accom_standard: "einfach", lat: "5.8839975", lgt: "0.0385611",
+  accoms: Accom.where(name: ['Doppelzimmer', 'Gemeinschaftsräume', 'Verpflegung inklusive', 'Fließend Wasser', 'Elektrizität', 'Telefon', 'Freizeitaktivitäten in direkter Umgebung', 'Sichere Umgebung']),
+  animals: Animal.where(name: ['Fledermaus', 'Affe', 'Antilope', 'Pavian', 'Vogel', 'Zebra', 'Strauß', 'Savanne']),
+  countries: Country.where(name: ['Ghana']),
+  tasks: Task.where(name: ['Englisch', 'Arbeit direkt am Tier', 'Wilde Tiere suchen', 'Landschaftspflege', 'Pflanzen/Bäume ziehen / Aufforsten', 'Arbeit an Landschaft und Tier', 'Instandhaltungs-/Bauarbeiten', 'Administrative Arbeit', 'Wanderungen', 'Fotografieren/Filmen', 'Unterricht/Aufklärung', 'Betreuung von Besuchern', 'Geregelte Arbeitszeiten', 'Arbeit nur tagsüber', 'Nachtdienst nur in Notfällen']),
+  images: ["18/P1000214.jpeg",
+    "18/P1000226.jpeg",
+    "18/P1020749.jpeg",
+    "18/P1020762.jpeg",
+    "18/P1020794.jpeg"])
 
 Project.create(title: "Arcas, Hawaii, Guatemala", preview: "Meeresschildkröten retten und erforschen",
   summary: "Das Arcas-Projekt verschreibt sich in seinem Projekt nahe der Stadt Hawaii hauptsächlich dem Schutz und der Erforschung von Oliv-Bastard- sowie Lederschildkröten. Durch private Sammler, die Schildkröteneier als Aphrodisiaka verkaufen, ist der Bestand im Pazifik in den letzten Jahren auf bedrohliche Mengen gesunken. Hiergegen kämpt Arcas durch Schutz der Eier, Erforschung der Meeresbewohner sowie durch Aufklärung der Bevölkerung. In Peten und Guatemala Stadt betreibt Arcas zwei weitere Natur- und Tierschutzprojekte mit anderen Schwerpunkten.",
@@ -222,7 +253,7 @@ Project.create(title: "Modisa Wildlife Project, Botswana", preview: "Löwen, Leo
   tel: "", email: "booking@modisa.org", webpage: "http://www.modisa.org/",
   min_weeks: 2, costs_week: 500, accom_standard: "mittel", lat: "-19.995262", lgt: "23.418077",
   accoms: Accom.where(name: ['Zelt', 'Doppelzimmer', 'Gemeinschaftsräume', 'Verpflegung inklusive', 'Elektrizität', 'Internet']),
-  animals: Animal.where(name: ['Löwe', 'Leopard', 'Afrikanischer Wildhund']),
+  animals: Animal.where(name: ['Löwe', 'Leopard', 'Afrikanischer Wildhund', 'Savanne']),
   countries: Country.where(name: ['Botswana']),
   tasks: Task.where(name: ['Englisch', 'Arbeit direkt am Tier', 'Beobachtungen per Auto', 'Wanderungen']),
   images: ["6/leo-350690_1920.jpg"])

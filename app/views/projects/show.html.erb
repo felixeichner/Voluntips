@@ -9,15 +9,18 @@
 
 <div class="row">
 	<%= render 'show-card', title: "Kurzbeschreibung", content: @project.summary %>
-  <%= render 'show-card', title: "Arbeitsaufgaben", content: @project.work %>
+	<%= render 'show-card', title: "Anforderungen", content: @project.qualification %>
+</div>
+
+<div class="row">
+  	<%= render 'show-card', title: "Arbeitsaufgaben", content: @project.work %>
+  	<%= render 'show-card', title: "Unterbringung", content: @project.accomodation %>
 </div>
 
 <div class="row">
 	<%= render 'show-card', title: "Kosten", content: @project.costs %>
-  <%= render 'show-card', title: "Unterbringung", content: @project.accomodation %>
+	<%= render 'show-card-contact' %>
 </div>
-
-<%= render 'show-card-contact' %>
 
 <%= link_to 'Zurück', url_for(:back), class: "btn btn-designed" %>
 <%= admin_links(@project, edit_project_path(@project)) %>

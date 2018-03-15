@@ -1,13 +1,15 @@
+<div id="fb-root"></div>
+
 <div class="cover-container">
 	<div class="masthead clearfix">
 		<nav class="navbar navbar-expand-lg navbar-light nav-masthead">		
-				<%= link_to image_tag("logo.png", width: '80%'), root_path, class: "masthead-brand" %>
+			<%= link_to image_tag("logo.png", width: '80%'), root_path, class: "masthead-brand" %>
 
-      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-      		<%= link_to "Menü", '', class: "btn btn-designed dropdown-toggle" %>
-    		</button>
+	      	<span class="navbar-toggler" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+	      		<span class="btn btn-designed dropdown-toggle">Menü</span>
+	    	</span>
 
-				<div class="collapse navbar-collapse row" id="navbarHeader">
+			<div class="collapse navbar-collapse row" id="navbarHeader">
 	    		<div class="col-auto">
 		    		<%= link_to "Projekte", projects_path,
 		    				class: "nav-link #{active?(controller_name, 'projects')}" %>
@@ -21,6 +23,15 @@
 	  						class: "nav-link #{active?(action_name, 'contact')}" %>
 	  			</div>
 	  			<div class="col"></div>
+	  			<div class="col-auto col-right d-flex flex-column">
+	  				<span class="social-links">
+	  					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+	  				</span>
+	  				<span class="social-links">
+  						<g:plusone></g:plusone>
+	  					<a href="https://twitter.com/voluntips?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @voluntips</a>
+	  				</span>
+	  			</div>
 	  			<div class="col-auto col-right">
 	  				<%= link_to 'Logout', destroy_user_session_path,
 	  						method: :delete, class: "nav-link" if logged_in?(:admin) %>
