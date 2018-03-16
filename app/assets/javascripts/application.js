@@ -26,8 +26,3 @@
   js.src = 'https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.12';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-109141164-1');
