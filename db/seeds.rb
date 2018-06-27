@@ -123,7 +123,7 @@ Project.create(title: "Bahamas Marine Conservation, Bahamas", preview: "Korallen
   London SW6 4TJ\n
   United Kingdom",
   tel: "+44 207 384 3028", email: "antoniahiesgen@gapforce.org",
-  webpage: "http://www.gapforce.org/program/9/bahamas-marine-conservation",
+  webpage: "https://gapforce.org/de/gap-year-programs/program/bahamas-marine-conservation",
   min_weeks: 2, costs_week: 500, accom_standard: "mittel", lat: "24.414325", lgt: "-77.997781",
   accoms: Accom.where(name: ['Mehrbettzimmer/Schlafsaal', 'Gemeinschaftsräume', 'Strandlage']),
   animals: Animal.where(name: ['Meeresschildkröte', 'Wal', 'Delfin', 'Hai', 'Krokodil']),
