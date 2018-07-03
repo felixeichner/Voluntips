@@ -17,17 +17,8 @@ jobs:
     docker:
       # specify the version you desire here
        - image: circleci/ruby:2.4.1-node-browsers
-       environment:
-          PG_HOST: localhost
-          PG_USER: ubuntu
-          # PG_DB: biometric-underwriting-api_test
-          RAILS_ENV: test
-          RACK_ENV: test
 
-        - image: circleci/postgres:9.4
-        environment:
-          POSTGRES_USER: ubuntu
-          # POSTGRES_DB: biometric-underwriting-api_test
+       - image: circleci/postgres:9.4
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
